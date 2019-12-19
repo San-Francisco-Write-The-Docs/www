@@ -1,0 +1,12 @@
+- site: GitHub
+  label: San Francisco Write the Docs
+  url: "https://github.com/San-Francisco-Write-The-Docs/"
+  icon: "<i class='fab fa-github-square'></i>"
+- site: Twitter
+  label: "@WriteTheDocsSF"
+  url: "https://twitter.com/"
+  icon: "<i class='fab fa-twitter-square'></i>"
+- site: LinkedIn
+  label: LinkedIn
+  url: "https://linkedin.com/"
+  icon: "<i class='fab fa-linkedin'></i>"

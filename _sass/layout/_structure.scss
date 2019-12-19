@@ -1,0 +1,11 @@
+.wrapper {
+  min-height: calc(100vh - $footer-height);
+  @include media-breakpoint-down(md) {
+    min-height: calc(100vh);
+  }
+}
+.content-wrapper {
+  flex: 1;
+  align-items: stretch;
+  margin-bottom: $footer-height;
+}

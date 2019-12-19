@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Nunito+Sans&display=swap');
+@import 'utilities/variables';
+@import 'vendor/bootstrap/bootstrap';
+
+@import 'base/typography';
+
+@import 'components/cards';
+
+@import 'layout/navbar'; 
+@import 'layout/footer';
+@import 'layout/structure';
+
+@import 'pages/home';

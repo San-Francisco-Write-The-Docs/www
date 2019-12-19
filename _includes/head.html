@@ -1,0 +1,43 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    {% comment %} Favicon {% endcomment %}
+    <link rel="shortcut icon" href="{{ '/images/logos/square.png' | prepend: site.baseurl }}">
+
+    {% comment %} Google Analytics Tracking Information {% endcomment %}
+    <!-- To add -->
+
+    {% comment %} Canonical URL Settings for SEO {% endcomment %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    {% comment %} RSS Feed Info {% endcomment %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+
+    {% comment %} Main CSS File from Jekyll {% endcomment %}
+    <link rel="stylesheet" href="{{ '/assets/main.css' | prepend: site.baseurl }}">
+
+    {% comment %} CDN for Fontawesome (v5.4.2) {% endcomment %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <script>
+        var baseurl = '{{ site.baseurl }}'
+    </script>
+
+    {% comment %} JQuery CDN (Bootstrap Dependency) {% endcomment %}
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    {% comment %} Popper JS CDN (Bootstrap Dependency) {% endcomment %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    {% comment %} Bootstrap JS CDN (v4.4.1) {% endcomment %}
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    {% comment %}  Main JS File {% endcomment %}
+    <script src="{{ '/assets/main.js' | prepend: site.baseurl }}"></script>
+
+</head>

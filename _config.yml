@@ -1,0 +1,19 @@
+url: "https://bayarea-writethedocs.org"
+title: "Write The Docs: Bay Area"
+
+timezone: America/Los_Angeles
+
+collections_dir: content
+collections:
+  about:
+    permalink: /:collection/:path/
+    name: About
+    output: true
+  events:
+    permalink: /:collection/:path/
+    name: Events
+    output: true
+  organizers:
+    permalink: /:collection/:path/
+    name: Organizers
+    output: true
