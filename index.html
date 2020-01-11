@@ -20,38 +20,24 @@ title: "Write the Docs | SF Bay Area"
 
     <div class="col-12 col-md-3">
 
+        {% assign cards = site.data.widgets.homepage-cards %}
+        {% for card in cards %}
+
         <div class="card card-topimage mw-100" id="events">
-            <a href="./events/list/">
-                <div class="card-header card-topimage_header">
-                    <center><i class="far fa-calendar-plus"></i></center>
-                </div>
-                <div class="card-title card-topimage_title">
-                    <h4>Our Events</h4>
-                </div>
-            </a>
+            <div class="card-header card-topimage_header">
+                <center>{{ site.icons[card.icon] }}</center>
+            </div>
+            <div class="card-title card-topimage_title">
+                <h4>{{ card.title }}</h4>
+            </div>
+            <div class="card-body">
+                {{ card.content }}
+            </div>
+            <div class="card-footer">
+                <a role="button" class="btn btn-primary" href="{{ card.cta.link }}">{{ card.cta.title }}</a>
+            </div>
         </div>
-
-        <div class="card card-topimage mw-100" id="get-involved">
-            <a href="./get-involved/">
-                <div class="card-header card-topimage_header">
-                    <center><i class="fas fa-hands-helping"></i></center>
-                </div>
-                <div class="card-title card-topimage_title">
-                    <h4>Get Involved</h4>
-                </div>
-            </a>
-        </div>
-
-        <div class="card card-topimage mw-100" id="write-the-docs">
-            <a href="#=./about/write-the-docs/">
-                <div class="card-header card-topimage_header">
-                    <center><i class="fas fa-info-circle"></i></center>
-                </div>
-                <div class="card-title card-topimage_title">
-                    <h4>About Write The Docs</h4>
-                </div>
-            </a>
-        </div>
+        {% endfor %}
     </div>
 
     <div class="col-12 col-md-9 col-md-offset-3">

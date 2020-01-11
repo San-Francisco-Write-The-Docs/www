@@ -1,0 +1,8 @@
+san-lorenzo-library:
+  name: San Lorenzo Library
+  map: locations/san-lorenzo-library.html
+  address:
+  getting-here:
+    - "BART: Take BART to the Bayfair station, then take the 97 bus to Hesperian and Paseo Grande."
+    - "BIKE: Bike racks in front of the library."
+    - "CAR: Free parking at the Library and the adjacent shopping center."

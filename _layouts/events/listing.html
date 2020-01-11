@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign events = site.data.events[page.data] %}
+
+{% for event in events %}
+
+<h2>{{ event.name }}</h2>
+<h3>{{ event.month | append: event.day }} @ {{ event.venue }}</h3>
+<h4><em>Sponsored by {{ event.sponsor }}</em></h4>
+<p>{{ event.description }}</p>
+{% if event.recording %}
+<p>A recording for this event is available <a href="{{ event.recording.link }}">here</a>.</p>
+{% endif %}
+<hr>
+{% endfor %}

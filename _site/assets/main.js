@@ -1,1 +1,0 @@
-import '_js/main.js' as 'main';

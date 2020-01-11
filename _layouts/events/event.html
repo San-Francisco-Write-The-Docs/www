@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign location = site.data.locations[page.location] %}
+{% assign locale = site.data.locales[page.locale] %}
+
+<div class="container-fluid event-container">
+
+    <div class="row">
+        <div class="col">
+            <div class="hero">
+                <strong>{{ page.event-date }}</strong>
+                <h1 class="hero-title">{{ page.title }} {{ locale.badge }}</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col">
+            {{ content }}
+        </div>
+        <div class="col">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ page.event-date }}</h5>
+                    {% if page.agenda %}
+                    <p class="card-text">
+                        Our agenda for this meetup:
+                        {{ page.agenda | markdownify }}
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="card-body">
+                    <h5 class="card-title">{{ location.name }}</h5>
+                    <p class="card-text">
+                        Getting here:
+                        <ul>
+                        {% for item in location.getting-here %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                        </ul>
+                    </p>
+                    {% include {{location.map}} %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
