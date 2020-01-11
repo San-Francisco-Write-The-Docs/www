@@ -4,12 +4,12 @@ layout: default
 {% assign location = site.data.locations[page.location] %}
 {% assign locale = site.data.locales[page.locale] %}
 
-<div class="container-fluid event-container">
+<div class="container-fluid">
 
     <div class="row">
         <div class="col">
             <div class="hero">
-                <strong>{{ page.event-date }}</strong>
+                <div class="hero-date">{{ page.event-date }}</div>
                 <h1 class="hero-title">{{ page.title }} {{ locale.badge }}</h1>
             </div>
         </div>

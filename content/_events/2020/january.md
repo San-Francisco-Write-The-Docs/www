@@ -18,9 +18,8 @@ agenda: |
     *   _Closing word, cleanup, say goodbye_: 8:30 to 9 p.m.
 ---
 
-## DETAILS:
 
-Start the new year by getting a jump on your documentation to-do list.
+<p class="lead">Start the new year by getting a jump on your documentation to-do list.</p>
 
 If you have a project, bring it with you:
 
@@ -39,10 +38,11 @@ If you are new to technical writing or want to break in, it's a good meeting to 
 
 We'll get a rough tally of people and projects at the beginning so that we can re-arrange the space to fit groups that want to work together. Otherwise, feel free to arrive late, leave early, or change projects as you see fit.
 
-## FOOD AND REFRESHMENTS:
+## Food & Refreshments
 
 This event is unsponsored, but we're encouraging people to bring food with them. Between 5:30 and 6:30, we'll eat take-out, network, and discuss what we're working on.
 
 
-## CODE OF CONDUCT:
-We're an inclusive, caring group. Please take a moment to read the Write the Docs Code of Conduct: http://www.writethedocs.org/code-of-conduct/.
+## Code of Conduct
+
+{% include callout.html type="info" content="We're an inclusive, caring group. Please take a moment to read the Write the Docs Code of Conduct: [http://www.writethedocs.org/code-of-conduct/](http://www.writethedocs.org/code-of-conduct/])." %}
