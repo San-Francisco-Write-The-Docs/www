@@ -1,0 +1,12 @@
+san-francisco:
+    name: San Francisco
+    lead: TBD
+    badge: "<span class='badge badge-violet'>San Francisco</span>"
+east-bay:
+    name: East Bay
+    lead: Clarence Cromwell
+    badge: "<span class='badge badge-primary'>East Bay</span>"
+south-bay:
+    name: South Bay
+    lead: Jessica Parsons
+    badge: "<span class='badge badge-teal'>South Bay</span>"
