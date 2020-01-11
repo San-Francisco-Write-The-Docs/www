@@ -1,0 +1,37 @@
+- item:
+  title: Home
+  id: home
+  link: "/"
+- item:
+  title: Events
+  id: events
+  subnav:
+    - item:
+      title: Next Event
+      dynamic: true
+    - item:
+      title: Past Events
+      link: "/events/"
+    - item:
+      title: Share a Meetup Idea
+      cta: true
+      link: "/events/submission/"
+- item:
+  title: About Us
+  id: about
+  subnav:
+    - item:
+      title: Our Meetup Group
+      link: "/about/meetup-group/"
+    - item:
+      title: Write the Docs
+      external: true
+      link: "https://writethedocs.org"
+    - item:
+      title: Organizers
+      link: "/about/organizers/"
+- item:
+  title: Get Involved
+  id:
+  cta: true
+  link: "/organizers/involvement-survey/"

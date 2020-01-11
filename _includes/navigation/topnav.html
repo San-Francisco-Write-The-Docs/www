@@ -1,31 +1,27 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
   <a class="navbar-brand" href="#"><img src="{{ '/images/logos/square.png' | prepend: site.baseurl }}">Write The Docs | Bay Area</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}" id="about-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events<b class="caret"></b></a>
-          <div class="dropdown-menu" aria-labelledby="about-dropdown">
-            <a class="dropdown-item" href="{{ '/about/organizers/' | prepend: site.baseurl }}">Upcoming Events</a>
-            <a class="dropdown-item" href="{{ '/about/meetup-group/' | prepend: site.baseurl }}">Past Events</a>
-          </div>
-      </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}" id="about-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About<b class="caret"></b></a>
-          <div class="dropdown-menu" aria-labelledby="about-dropdown">
-            <a class="dropdown-item" href="{{ '/about/organizers/' | prepend: site.baseurl }}">Our Organizers</a>
-            <a class="dropdown-item" href="{{ '/about/meetup-group/' | prepend: site.baseurl }}">Our Meetup Group</a>
-          </div>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Get Involved </a>
-      </li>
+    <ul class="navbar-nav mr-auto">
+       {% assign nav-items = site.data.navigation.topnav %}
+        {% for item in nav-items %}
+        {% if item.subnav %}
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="{{ item.id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }} <b class="caret"></b></a>
+            <div class="dropdown-menu" aria-labelledby="{{ item.id }}">
+                {% for item in subnav.items %}
+                <a class="dropdown-item" href="{{ item.link }}">
+                    {% if item.cta %}{{ site.icons.lightbulb }}{% endif %}{{ item.title }}</a>
+                {% endfor %}
+            </div>
+        {% else %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ item.link }}">{% if item.cta %}{{ site.icons.lightbulb }}{% endif %}{{ item.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
     </ul>
   </div>
 </nav>
