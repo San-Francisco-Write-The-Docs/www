@@ -1,0 +1,23 @@
+- card:
+    id: events-card
+    title: Our Events
+    content: "We host (mostly) monthly events, rotating in our three locales: San Francisco, the East Bay, and the South Bay."
+    icon: calendar
+    cta:
+      title: Attend our next event!
+      #link: Which event we linked to is defined by the site.next_event variable.
+- card:
+    id: about-us-card
+    title: About Us
+    content: "Our meetup group is a part of the larger Write The Docs organization, founded in Portland. We are a community of documentarians aiming to bring engaging and informative meetups and events to the Bay Area."
+    icon: info
+    cta:
+      title: Learn more
+      link: "/about/"
+- card:
+    id: get-involved-card
+    title: Get Involved
+    content:
+    cta:
+      title: Join us!
+      link: "/get-involved/"
