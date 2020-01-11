@@ -1,5 +1,5 @@
-.idea/*
-.node_modules/*
+.idea/
+.node_modules/
 _site/
 .sass-cache/
 .jekyll-cache/
