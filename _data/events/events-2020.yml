@@ -1,0 +1,8 @@
+- event:
+    id: jan-2020-project-night
+    name: January Project Night
+    month: January
+    day: 23
+    description:
+    locale: eb
+    location: San Lorenzo Library
