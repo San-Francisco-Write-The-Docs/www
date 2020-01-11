@@ -1,0 +1,23 @@
+# Add each volunteer below (in alphabetical order), including all of the information below.
+#
+## Template
+# Name:
+#   name: Firstname Lastname
+#   email: email@email.com
+#   role: Organizer Role
+#   admin: true #Do they have the password to our Gmail account? Set this to true or false
+#   image: #Full path to the image file for their portrait (or other image used instead of a portrait)
+Clarence:
+  name: Clarence Cromwell
+  location: Oakland
+  email:
+  role: East Bay Lead Organizer
+  admin: true
+  image: "/images/organizers/clarence.png"
+Claire:
+  name: Claire Lundeby
+  location: Pleasanton
+  email: clairelundeby@writethedocs.com
+  role: East Bay Organizer
+  admin: true
+  image: "/images/organizers/claire.png"
