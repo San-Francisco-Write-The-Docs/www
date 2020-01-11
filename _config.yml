@@ -25,12 +25,15 @@ next_event: "jan-2020-project-night"
 # These variables can be used to render these FA (FontAwesome 5 Free) icons throughout the site, without getting the whole thing.
 # Syntax: {{ site.icons.<icon_name> }}
 icons:
-  external: "<i class='fal fa-external-link'></i>"
-  home: "<i class='fad fa-home'></i>"
-  github: "<i class='fab fa-github-square'></i>"
-  twitter: "<i class='fab fa-twitter-square'></i>"
-  linkedin: "<i class='fab fa-linkedin'></i>"
-  lightbulb: "<i class='fal fa-lightbulb-on'></i>"
   calendar: "<i class='far fa-calendar-plus'></i>"
+  clock: "<i class='far fa-clock'></i>"
+  external: "<i class='fal fa-external-link'></i>"
+  food: "<i class='fas fa-utensils'></i>"
+  github: "<i class='fab fa-github-square'></i>"
   hands-helping: "<i class='fas fa-hands-helping'></i>"
-  info-circle: "i class='fas fa-info-circle'></i>"
+  home: "<i class='fad fa-home'></i>"
+  info-circle: "i class='fas fa-info-circle'></i>"s
+  lightbulb: "<i class='far fa-lightbulb'></i>"
+  linkedin: "<i class='fab fa-linkedin'></i>"
+  map: "<i class='fas fa-map-marked'></i>"
+  twitter: "<i class='fab fa-twitter-square'></i>"
