@@ -1,5 +1,5 @@
-- event:
-    id: jan-2020-project-night
+jan-2020-project-night:
+    path: events/2020/january
     name: January Project Night
     month: January
     day: 23
