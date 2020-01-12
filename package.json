@@ -2,6 +2,7 @@
   "name": "writethedocs-sfbayarea",
   "version": "1.0.0",
   "description": "Website for the San Francisco Bay Area Write the Docs meetup group",
+  "repository": "https://github.com/San-Francisco-Write-The-Docs/www",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +10,12 @@
   "author": "Claire Lundeby, Clarence Cromwell",
   "license": "ISC",
   "dependencies": {
+    "fancy-log": "^1.3.3",
     "gulp": "^4.0.2",
-    "gulp-cli": "^2.2.0"
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "readable-stream": "^3.4.0"
   }
 }
