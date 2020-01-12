@@ -8,65 +8,73 @@ layout: default
 
     <div class="row">
         <div class="col">
-            <div class="hero">
+            <div class="hero shadow-sm">
                 <div class="hero-date">{{ page.event-date }}</div>
                 <h1 class="hero-title">{{ page.title }} {{ locale.badge }}</h1>
             </div>
         </div>
     </div>
+</div>
 
-
-
-    <div class="row">
-        <div class="col">
+<div class="container">
+    <div class="row pt-5">
+        <div class="col-12 col-md-7">
             {{ content }}
             {% include events/code-of-conduct-callout.md %}
         </div>
-        <div class="col">
+        <div class="col-12 col-md-5">
+            <div class="sticky-top">
+                {% comment %}
+                This include goes in only when rsvp_open is set to true (you need to remove this variable after the event). It shows a button, which opens a modal with the RSVP google form (defined in front matter) is embedded.
+                {% endcomment %}
 
-            {% comment %}
-            This card shows the date of an event, and, if included, the agenda (from the page's front matter).
-            If you don't have an agenda, it shows the event-time instead.
-            {% endcomment %}
+                {% if page.rsvp_open %}
+                {% include forms/rsvp-modal.html %}
+                {% endif %}
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="card-body">
-                    <h5 class="card-title">{{ site.icons.clock }}  {{ page.event-date }}</h5>
-                    {% if page.agenda %}
-                    <p class="card-text">
-                        Our agenda for this meetup:
-                        {{ page.agenda | markdownify }}
-                    </p>
-                    {% elsif page.event-time %}
-                    <p class="card-text">
-                        {{ page.event-time }}
-                    </p>
-                    {% else %}
-                    {% endif %}
+                {% comment %}
+                This card shows the date of an event, and, if included, the agenda (from the page's front matter).
+                If you don't have an agenda, it shows the event-time instead.
+                {% endcomment %}
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ site.icons.clock }}  {{ page.event-date }}</h5>
+                        {% if page.agenda %}
+                        <p class="card-text">
+                            Our agenda for this meetup:
+                            {{ page.agenda | markdownify }}
+                        </p>
+                        {% elsif page.event-time %}
+                        <p class="card-text">
+                            {{ page.event-time }}
+                        </p>
+                        {% else %}
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
 
-            {% comment %}
-            This card shows the location of an event, including a Google Maps iFrame of the location and tips on how to get there.
-            The location is assigned via page.location, which maps to the appropriate location in _data/locations.yml.
-            Make sure that your event location exists in _data/locations.yml
-            {% endcomment %}
+                {% comment %}
+                This card shows the location of an event, including a Google Maps iFrame of the location and tips on how to get there.
+                The location is assigned via page.location, which maps to the appropriate location in _data/locations.yml.
+                Make sure that your event location exists in _data/locations.yml
+                {% endcomment %}
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="card-body">
-                    <h5 class="card-title">{{ site.icons.map }}  {{ location.name }}</h5>
-                    <p class="card-text">
-                        Getting here:
-                        <ul>
-                        {% for item in location.getting-here %}
-                        <li>{{ item }}</li>
-                        {% endfor %}
-                        </ul>
-                    </p>
-                    {% include {{location.map}} %}
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ site.icons.map }}  {{ location.name }}</h5>
+                        <p class="card-text">
+                            Getting here:
+                            <ul>
+                            {% for item in location.getting-here %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                            </ul>
+                        </p>
+                        {% include {{location.map}} %}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
