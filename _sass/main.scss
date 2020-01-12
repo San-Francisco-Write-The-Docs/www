@@ -4,11 +4,14 @@
 @import 'utilities/variables';
 @import 'vendor/bootstrap/bootstrap';
 
+@import 'base/body';
 @import 'base/typography';
 
+@import 'components/badges';
 @import 'components/callouts';
 @import 'components/cards';
 @import 'components/hero';
+@import 'components/github-corner';
 
 @import 'layout/navbar'; 
 @import 'layout/footer';
