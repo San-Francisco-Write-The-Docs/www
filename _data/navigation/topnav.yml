@@ -7,14 +7,13 @@
   id: events
   subnav:
     - item:
-      title: Next Event
-      dynamic: true
+      title: "Upcoming Events"
+      link: "/events/upcoming/"
     - item:
       title: Past Events
       link: "/events/"
     - item:
       title: Share a Meetup Idea
-      cta: true
       link: "/events/submission/"
 - item:
   title: About Us
@@ -32,6 +31,6 @@
       link: "/about/organizers/"
 - item:
   title: Get Involved
-  id:
+  id: get-involved
   cta: true
   link: "/organizers/involvement-survey/"

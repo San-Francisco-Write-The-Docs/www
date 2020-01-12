@@ -1,24 +1,31 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
-  <a class="navbar-brand" href="#"><img src="{{ '/images/logos/square.png' | prepend: site.baseurl }}">Write The Docs | Bay Area</a>
+  <a class="navbar-brand" href="/"><img src="{{ '/images/logos/square.png' | prepend: site.baseurl }}">Write The Docs | Bay Area</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
        {% assign nav-items = site.data.navigation.topnav %}
+       {% assign next_event = site.data.events-2020[site.next_event] %}
         {% for item in nav-items %}
         {% if item.subnav %}
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="{{ item.id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }} <b class="caret"></b></a>
+            <a class="nav-link dropdown-toggle" id="{{ item.id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
             <div class="dropdown-menu" aria-labelledby="{{ item.id }}">
-                {% for item in subnav.items %}
-                <a class="dropdown-item" href="{{ item.link }}">
-                    {% if item.cta %}{{ site.icons.lightbulb }}{% endif %}{{ item.title }}</a>
+                {% assign subnav-items = item.subnav %}
+                {% for subnav-item in subnav-items %}
+                <a class="dropdown-item" href="{{ subnav-item.link }}">
+                    {{ subnav-item.title }}
+                </a>
                 {% endfor %}
             </div>
         {% else %}
         <li class="nav-item">
-            <a class="nav-link" href="{{ item.link }}">{% if item.cta %}{{ site.icons.lightbulb }}{% endif %}{{ item.title }}</a>
+            {% if item.cta %}
+            <a role="button" class="btn btn-outline-primary ml-2" href="{{ item.link }}">{{ item.title }}</a>
+            {% else %}
+            <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+            {% endif %}
         </li>
         {% endif %}
         {% endfor %}
