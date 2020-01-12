@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include base/head.html %}
-  <body>
+  <body data-target="toc">
     <div class="wrapper">
     {% include navigation/topnav.html %}
+    {% include navigation/github-corner.html %}
     <div class="content-wrapper">
     {{ content}}
     </div>
