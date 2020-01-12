@@ -1,5 +1,7 @@
 // Color customization
 
+@import 'colors/colors';
+
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
@@ -44,5 +46,9 @@ $lead-font-weight:            300 !default;
 $small-font-size:             80% !default;
 
 
-$footer-height:               200px !default;
+$footer-height:               215px !default;
 $navbar-height:               75px  !default;
+
+$badge-font-size:             65% !default;
+
+$enable-carets:               true;

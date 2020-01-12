@@ -1,5 +1,7 @@
 #homepage-header {
-  background: transparent url("/images/bg/san-francisco.jpg") no-repeat center center /cover;
+  background: linear-gradient(rgba(255, 175, 189, 0.5),rgba(255, 195, 160, 0.75)), url("/images/bg/san-francisco.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .home {

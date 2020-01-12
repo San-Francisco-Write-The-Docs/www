@@ -1,16 +1,29 @@
-
 .hero {
-    width: 100%;
+    width: 110%;
+    height: 165px;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: -15px;
+    margin-right: -15px;
+
     background: $white;
     border-bottom: 1px solid $gray-200;
-    padding-bottom: 3px;
-    margin-bottom: 10px;
+    .badge { vertical-align: middle }
 }
 
 .hero-title {
-    font-size: 4rem;
+    padding-left: 15px;
+    @include media-breakpoint-up(md) {
+        font-size: 3.75rem;
+    }
+    font-size: 2rem;
 }
 
 .hero-date {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: $gray-600;
+    padding-left: 15px;
+    padding-top: 10px;
 }
+
