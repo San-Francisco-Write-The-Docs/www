@@ -1,11 +1,13 @@
-- jan-2020-project-night:
+jan-2020-project-night:
   upcoming: true
   name: January Project Night
-  path: events/2020/january/
+  path: /events/2020/january/
   month: January
   day: 23
   locale: east-bay
   location: San Lorenzo Library
+  lead-image: images/stock/collaboration.jpg
+  lead-image-alt: People collaborating on a document between two laptops
   description: |
       If you have a project, bring it with you:
 
