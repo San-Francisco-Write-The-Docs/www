@@ -4,66 +4,58 @@ title: "Write the Docs | SF Bay Area"
 ---
 
 <div class="container-fluid">
-<div class="row justify-content-center py-5" id="homepage-header">
-<div class="col-12 col-md-4">
-    <div class="float-right">
-        <h1 class="title text-right text-white">WRITE<br/>THE<br/>DOCS</h1>
-        <hr>
-        <h1 class="subtitle text-right text-white">Bay Area</h1>
+    <div class="row justify-content-center py-5" id="homepage-header">
+        <div class="col-12 col-md-4">
+            <div class="float-right">
+                <h1 class="title text-right text-white">WRITE<br/>THE<br/>DOCS</h1>
+                <hr>
+                <h1 class="subtitle text-right text-white">Bay Area</h1>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 align-self-center">
+            <div class="d-inline">
+                <h4 class="tagline text-white">Write The Docs is a global community of people who care about documentation. We are a local meetup group for Write The Docs in the San Francisco Bay Area!</h4>
+                <a href="/" role="button" class="btn btn-primary">{{ site.icons.slack }} Join us on Slack!</a>
+                <a href="#next-event" role="button" class="btn btn-primary">{{ site.icons.calendar }} Come to our next event!</a>
+            </div>
+        </div>
     </div>
-</div>
-<div class="col-12 col-md-6 align-middle">
-    <div class="d-inline align-middle">
-        <h4 class="tagline text-white">Write The Docs is a global community of people who care about documentation. We are a local meetup group for Write The Docs in the San Francisco Bay Area!</h4>
-        <a href="/" role="button" class="btn btn-primary">{{ site.icons.slack }} Join us on Slack!</a>
-        <a href="#next-event" role="button" class="btn btn-primary">{{ site.icons.calendar }} Come to our next event!</a>
-
-    </div>
-
-</div>
 </div>
 <div class="container">
     <div class="row justify-content-center mt-5">
-        <div class="col">
-
-            {% assign next-event = site.data.events.events-2020.jan-2020-project-night %}
-            <div class="card mb-3 mx-auto" style="max-height: 300px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="{{ next-event.lead-image}}" class="card-img" alt="{{ next-event.lead-image-alt }}" style="max-height: 300px;">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h4 class="card-title">{{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h4>
-                            <p class="card-text">{{ next-event.description | markdownify }}</p>
-                            <a role="button" class="btn btn-primary" href="{{ next-event.path | prepend: site.baseurl }}">Join us!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h2 class="display2">Updates from the team</h2>
-                </div>
-                <div class="col">
-                    {% assign announcements = site.announcements %}
-                    {% unless announcement.listing %}
-                    {% for announcement in announcements limit:3 %}
-                    <h3>{{ announcement.title }}</h3>
-                    <p><strong>{{ announcement.announcement-date | date: "%B %d, %Y" }}</strong></p>
-                    <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
-                    <a href="{{ announcement.url }}">Read more...</a>
-                    <hr>
-                    {% endfor %}
-                    {% endunless %}
-                </div>
-            </div>
-
-
-
+        <div class="col col-md-1 d-none d-md-block">
+            &nbsp;
         </div>
-    </div><!-- End div row -->
-</div>
+        <div class="col">
+            {% assign next-event = site.data.events.events-2020.jan-2020-project-night %}
+            <div class="card mb-3 mx-auto">
+                <div class="card-body">
+                    <h2 class="card-title">Next Meetup: {{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h2>
+                    <p class="card-text">{{ next-event.description | markdownify }}</p>
+                    <a role="button" class="btn btn-primary" href="{{ next-event.path | prepend: site.baseurl }}">Join us!</a>
+                </div>
+            </div>
 
-</div><!-- End div container-->
+            <h2 class="display-4 pt-3">Updates from the team</h2>
+            {% assign announcements = site.announcements %}
+
+            {% for announcement in announcements limit:3 %}
+            {% unless announcement.listing %}
+            <h3>{{ announcement.title }}</h3>
+            <h5>{{ announcement.announcement-date | date: "%B %d, %Y" }}</h5>
+            <h5>
+                {% for tag in announcement.tags %}
+                <a href="{{ site.data.announcements.tags[tag].link }}">{{ site.data.announcements.tags[tag].badge }}</a>
+                {% endfor %}
+            </h5>
+            <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
+            <a href="{{ announcement.url }}">Read more...</a>
+            <hr>
+            {% endunless %}
+            {% endfor %}
+        </div>
+        <div class="col col-md-1 d-none d-md-block">
+            &nbsp;
+        </div>
+    </div>
+</div>
