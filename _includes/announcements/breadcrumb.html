@@ -1,0 +1,9 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">{{ site.icons.home }}</a></li>
+        {% unless page.layout == "announcements/listing" %}
+        <li class="breadcrumb-item"><a href="/announcements/">Announcements</a></li>
+        {% endunless %}
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>

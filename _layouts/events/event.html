@@ -5,7 +5,11 @@ layout: default
 {% assign locale = site.data.locales[page.locale] %}
 
 <div class="container-fluid">
-
+    <div class="row d-none d-md-block mt-2">
+        <div class="col">
+            {% include events/breadcrumb.html %}
+        </div>
+    </div>
     <div class="row">
         <div class="col">
             <div class="hero shadow-sm">

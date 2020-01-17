@@ -4,6 +4,11 @@ layout: default
 
 {% assign author = site.data.organizers[page.author] %}
 <div class="container-fluid mt-3">
+    <div class="row d-none d-md-block mt-2">
+        <div class="col">
+            {% include announcements/breadcrumb.html %}
+        </div>
+    </div>
     <div class="row hero shadow-sm">
         <div class="col">
                 <div class="hero-date">{{ page.announcement-date | date: "%B %d, %Y"}}</div>
