@@ -3,11 +3,17 @@ title: "Write The Docs: Bay Area"
 
 timezone: America/Los_Angeles
 
+exclude: [".idea/**/*"]
+
 collections_dir: content
 collections:
   about:
     permalink: /:collection/:path/
     name: About
+    output: true
+  announcements:
+    permalink: /:collection/:path/
+    name: Announcements
     output: true
   events:
     permalink: /:collection/:path/
@@ -28,6 +34,7 @@ next_event: "jan-2020-project-night"
 icons:
   calendar: "<i class='far fa-calendar-plus'></i>"
   clock: "<i class='far fa-clock'></i>"
+  envelope: "<i class='far fa-envelope'></i>"
   external: "<i class='fal fa-external-link'></i>"
   food: "<i class='fas fa-utensils'></i>"
   github: "<i class='fab fa-github-square'></i>"
