@@ -7,7 +7,7 @@
   id: events
   subnav:
     - item:
-      title: "Upcoming Events"
+      title: "Next Event"
       link: "/events/upcoming/"
     - item:
       title: Past Events
