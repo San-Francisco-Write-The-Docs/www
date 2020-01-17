@@ -11,6 +11,7 @@ package.json
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache
 # Ignore files added by IntelliJ editor
 .idea/
 writethedocs.iml
