@@ -1,12 +1,21 @@
-- site: GitHub
-  label: San Francisco Write the Docs
-  url: "https://github.com/San-Francisco-Write-The-Docs/"
-  icon: "<i class='fab fa-github-square'></i>"
-- site: Twitter
-  label: "@WriteTheDocsSF"
-  url: "https://twitter.com/"
-  icon: "<i class='fab fa-twitter-square'></i>"
-- site: LinkedIn
-  label: LinkedIn
-  url: "https://linkedin.com/"
-  icon: "<i class='fab fa-linkedin'></i>"
+sites:
+  - site: GitHub
+    label: San Francisco Write the Docs
+    url: "https://github.com/San-Francisco-Write-The-Docs/"
+    icon: "<i class='fab fa-github-square'></i>"
+  - site: Twitter
+    label: "@WriteTheDocsSF"
+    url: "https://twitter.com/"
+    icon: "<i class='fab fa-twitter-square'></i>"
+  - site: LinkedIn
+    label: LinkedIn
+    url: "https://linkedin.com/"
+    icon: "<i class='fab fa-linkedin'></i>"
+
+email:
+  - email: east-bay@writethedocs-sfbay.org
+    label: East Bay Team
+  - email: san-francisco@writethedocs-sfbay.org
+    label: San Francisco Team
+  - email: south-bay@writethedocs-sfbay.org
+    label: South Bay Team

@@ -1,6 +1,7 @@
 .footer-container {
-  height: $footer-height;
-  background-color: $dark;
+    height: $footer-height;
+    background-color: $dark;
+    margin-top: 2rem;
 }
 
 .footer {
@@ -11,3 +12,27 @@ padding-top: 2rem;
     }
 }
 
+.list-group-item-footer {
+    background-color: transparent;
+    color: $white;
+    border: none;
+    font-size: $font-size-base;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    :first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    :last-child {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+}
+#code-of-conduct {
+    padding-bottom: 5px;
+    .text-sm {
+        font-size: 85%;
+    }
+}
