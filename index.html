@@ -37,11 +37,12 @@ title: "Write the Docs | SF Bay Area"
             </div>
 
             <h2 class="display-4 pt-3">Updates from the team</h2>
+            <hr>
             {% assign announcements = site.announcements %}
 
             {% for announcement in announcements limit:3 %}
             {% unless announcement.listing %}
-            <h3>{{ announcement.title }}</h3>
+            <h3><i class="fas fa-bullhorn fa-rotate-315"></i> {{ announcement.title }}</h3>
             <h5>{{ announcement.announcement-date | date: "%B %d, %Y" }}</h5>
             <h5>
                 {% for tag in announcement.tags %}
@@ -50,7 +51,6 @@ title: "Write the Docs | SF Bay Area"
             </h5>
             <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
             <a href="{{ announcement.url }}">Read more...</a>
-            <hr>
             {% endunless %}
             {% endfor %}
         </div>
