@@ -1,6 +1,5 @@
 .hero {
     width: 110%;
-    height: 165px;
 
     padding-top: 10px;
     padding-bottom: 5px;
@@ -10,6 +9,10 @@
     background: $white;
     border-bottom: 1px solid $gray-200;
     .badge { vertical-align: middle }
+}
+
+.hero-set-height {
+    height: 165px;
 }
 
 .hero-title {

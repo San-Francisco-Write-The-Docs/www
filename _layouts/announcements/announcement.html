@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign author = site.data.organizers[page.author] %}
+<div class="container-fluid mt-3">
+    <div class="row hero shadow-sm">
+        <div class="col">
+                <div class="hero-date">{{ page.announcement-date | date: "%B %d, %Y"}}</div>
+                <h1 class="hero-title">{{ page.title }}</h1>
+            </div>
+            <div class="col align-self-center">
+                <h4>
+                    {% for tag in page.tags %}
+                    <a href="{{ site.data.announcements.tags[tag].link }}">{{ site.data.announcements.tags[tag].badge }}</a>
+                    {% endfor %}
+                </h4>
+                <h4><img class="img-circle img-author mr-1" src="{{ author.image }}" alt="{{ author.name }}">{{ author.name }}</h4>
+            </div>
+        </div>
+</div>
+<div class="container">
+    <div class="row pt-5">
+        {% if page.toc %}
+        <div class="col-12 col-md-2">
+            <div class="sticky-top">
+                <nav id="toc" data-toggle="toc"></nav>
+            </div>
+        </div>
+        <div class="col-12 col-md-10">
+            {{ content }}
+            <hr>
+        </div>
+        {% else %}
+        <div class="col">
+            {{ content }}
+            <hr>
+        </div>
+        {% endif %}
+    </div>
+</div>

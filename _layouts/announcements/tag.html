@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign announcements = site.announcements | where_exp: "document", "document.tags contains page.tag" | where_exp: "document", "document.layout != 'announcements/tag'" %}
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <nav id="toc" data-toggle="toc"></nav>
+        </div>
+        <div class="col-12 col-md-9">
+            {% for announcement in announcements %}
+            <h1>{{ page.title }}</h1>
+            <h2>{{ announcement.title }}</h2>
+            <h4>{{ page.announcement-date | date: "%B %d, %Y" }}</h4>
+            <h5>{% for tag in page.tags %}
+                {{ site.data.announcements.tags[tag].badge }}
+                {% endfor %}</h5>
+            <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
+            <a href="{{ announcement.url }}">Read more...</a>
+            <hr>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -26,22 +26,42 @@ title: "Write the Docs | SF Bay Area"
     <div class="row justify-content-center mt-5">
         <div class="col">
 
-            <div class="card card-topimage mb-3" id="events" style="max-width: 540px;">
-                <div class="card-header card-topimage_header">
-                    <center>{{ site.icons.calendar }}</center>
-                </div>
-                <div class="card-title card-topimage_title">
-                    <h4>Upcoming Event</h4>
-                </div>
-                <div class="card-body">
-                    Project night!
-                </div>
-                <div class="card-footer">
-                    <a role="button" class="btn btn-primary" href="/events/upcoming/">Join us</a>
+            {% assign next-event = site.data.events.events-2020.jan-2020-project-night %}
+            <div class="card mb-3 mx-auto" style="max-height: 300px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="{{ next-event.lead-image}}" class="card-img" alt="{{ next-event.lead-image-alt }}" style="max-height: 300px;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">{{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h4>
+                            <p class="card-text">{{ next-event.description | markdownify }}</p>
+                            <a role="button" class="btn btn-primary" href="{{ next-event.path | prepend: site.baseurl }}">Join us!</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <h2>Updates from the team</h2>
+            <div class="row">
+                <div class="col">
+                    <h2 class="display2">Updates from the team</h2>
+                </div>
+                <div class="col">
+                    {% assign announcements = site.announcements %}
+                    {% unless announcement.listing %}
+                    {% for announcement in announcements limit:3 %}
+                    <h3>{{ announcement.title }}</h3>
+                    <p><strong>{{ announcement.announcement-date | date: "%B %d, %Y" }}</strong></p>
+                    <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
+                    <a href="{{ announcement.url }}">Read more...</a>
+                    <hr>
+                    {% endfor %}
+                    {% endunless %}
+                </div>
+            </div>
+
+
+
         </div>
     </div><!-- End div row -->
 </div>
