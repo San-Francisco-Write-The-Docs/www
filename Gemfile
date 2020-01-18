@@ -12,6 +12,10 @@ group :jekyll_plugins do
    gem 'github-pages'
 end
 
+# Version specification
+## activesupport to >4.1.11 per CVE-2015-3227
+gem "activesupport", ">= 4.1.11"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
