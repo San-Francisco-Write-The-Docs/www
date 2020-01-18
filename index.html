@@ -27,7 +27,7 @@ title: "Write the Docs | SF Bay Area"
             &nbsp;
         </div>
         <div class="col">
-            {% assign next-event = site.data.events.events-2020.jan-2020-project-night %}
+            {% assign next-event = site.data.events.events-2020[site.next_event] %}
             <div class="card mb-3 mx-auto">
                 <div class="card-body">
                     <h2 class="card-title">Next Meetup: {{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h2>
