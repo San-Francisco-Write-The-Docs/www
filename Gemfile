@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.4.6'
 gem 'jekyll', '>= 3.7', '< 5.0'
 
 # Jekyll plugins
