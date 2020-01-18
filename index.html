@@ -42,7 +42,7 @@ title: "Write the Docs | SF Bay Area"
 
             {% for announcement in announcements limit:3 %}
             <div class="mb-5">
-                <h3><i class="fas fa-bullhorn fa-rotate-315"></i> {{ announcement.title }}</h3>
+                <h3>{{ announcement.title }}</h3>
                 <h5>{{ announcement.announcement-date | date: "%B %d, %Y" }}</h5>
                 <h5>
                     {% for tag in announcement.tags %}
