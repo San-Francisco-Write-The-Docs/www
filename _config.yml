@@ -47,3 +47,4 @@ icons:
   paper-plane: "<i class='far fa-paper-plane's></i>"
   slack: "<i class='fab fa-slack's></i>"
   twitter: "<i class='fab fa-twitter-square'></i>"
+theme: jekyll-theme-minimal
