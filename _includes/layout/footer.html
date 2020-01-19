@@ -1,0 +1,41 @@
+<div class="footer-container">
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <h4 data-toc-skip class="text-white">Keep in touch!</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-3">
+              <div class="contact">
+                {% assign contacts = site.data.contact.sites %}
+                {% for contact in contacts %}
+                <a type="button" href="{{ contact.url }}" data-toggle="tooltip" data-placement="top" title="{{ contact.site }}">{{ contact.icon }}</a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="col-12 col-md-9">
+              {% assign emails = site.data.contact.email %}
+              <div class="list-group" style="max-width: 15rem;">
+                {% for email in emails %}
+                <a class="list-group-item list-group-item-action list-group-item-footer" href="mailto:{{ email.email }}">{{ site.icons.envelope }}  {{ email.label }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="code-of-conduct">
+            <h4 data-toc-skip class="text-white">Code of Conduct</h4>
+            <p class="text-white text-sm">Write the Docs is a global community of documentarians who share information, discuss ideas, and work together to improve the art and science of documentation. Everybody who participates in our community in one way or another is required to conform to the <a href="https://www.writethedocs.org/code-of-conduct/">Write the Docs Code of Conduct (CoC)</a>. This includes online communications, meetup and conference attendees, speakers, sponsors, founders, moderators, organisers and volunteers.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>

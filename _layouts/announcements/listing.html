@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign announcements = site.announcements %}
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-12 col-md-3">
+            <div class="sticky-top">
+                <nav id="toc" data-toggle="toc"></nav>
+            </div>
+        </div>
+        <div class="col-12 col-md-9">
+           {% for announcement in announcements %}
+            {% unless announcement.listing %}
+            <h2>{{ announcement.title }}</h2>
+            <h4>{{ page.announcement-date | date: "%B %d, %Y" }}</h4>
+            <h5>{% for tag in page.tags %}
+            {{ site.data.announcements.tags[tag].badge }}
+                {% endfor %}</h5>
+            <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
+            <a href="{{ announcement.url }}">Read more...</a>
+            <hr>
+            {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+

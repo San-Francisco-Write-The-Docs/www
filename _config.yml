@@ -1,13 +1,20 @@
-url: "https://bayarea-writethedocs.org"
 title: "Write The Docs: Bay Area"
+url: "https://bayarea-writethedocs.org"
+github: "https://github.com/San-Francisco-Write-The-Docs/www"
 
 timezone: America/Los_Angeles
+include: ["_includes/"]
+exclude: [".idea/**/*", "CNAME", "README.md","gulpfile.js", "package.json","package-lock.json","Gemfile","Gemfile.lock","writethedocs.iml"]
 
 collections_dir: content
 collections:
   about:
     permalink: /:collection/:path/
     name: About
+    output: true
+  announcements:
+    permalink: /:collection/:path/
+    name: Announcements
     output: true
   events:
     permalink: /:collection/:path/
@@ -19,8 +26,7 @@ collections:
     output: true
 
 # This informs which event is shown as our "next" event. Use the "id" value from the event in events/events-{year}.yml
-event_data: "events-2020"
-next_event: "jan-2020-project-night"
+next_event: jan-2020-project-night
 
 # These variables can be used to render these FA (FontAwesome 5 Free) icons throughout the site, without getting the whole thing.
 # Note: To add a new icon, replace the double quotes in the class with single quotes (for YML).
@@ -28,6 +34,7 @@ next_event: "jan-2020-project-night"
 icons:
   calendar: "<i class='far fa-calendar-plus'></i>"
   clock: "<i class='far fa-clock'></i>"
+  envelope: "<i class='far fa-envelope'></i>"
   external: "<i class='fal fa-external-link'></i>"
   food: "<i class='fas fa-utensils'></i>"
   github: "<i class='fab fa-github-square'></i>"
@@ -40,3 +47,4 @@ icons:
   paper-plane: "<i class='far fa-paper-plane's></i>"
   slack: "<i class='fab fa-slack's></i>"
   twitter: "<i class='fab fa-twitter-square'></i>"
+theme: jekyll-theme-minimal

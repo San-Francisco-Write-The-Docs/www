@@ -1,14 +1,14 @@
-.idea/
 _site
 .DS_Store
 .jekyll
 .bundle
 .sass-cache
-Gemfile
-Gemfile.lock
 node_modules
-package.json
 /_site/
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache
+# Ignore files added by IntelliJ editor
+.idea/
+writethedocs.iml

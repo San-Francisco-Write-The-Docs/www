@@ -1,0 +1,21 @@
+website:
+    badge: "<span class='badge badge-pill badge-orange'>website</span>"
+    link: "/announcements/tags/website/"
+news:
+    badge: "<span class='badge badge-pill badge-info'>news</span>"
+    link: "/announcements/tags/news/"
+east-bay:
+    badge: "<span class='badge badge-pill badge-indigo'>east-bay</span>"
+    link: "/announcements/tags/east-bay/"
+south-bay:
+    badge: "<span class='badge badge-pill badge-teal'>south-bay</span>"
+    link: "/announcements/tags/south-bay/"
+san-francisco:
+    badge: "<span class='badge badge-pill badge-orange'>san-francisco</span>"
+    link: "/announcements/tags/san-francisco/"
+organizers:
+    badge: "<span class='badge badge-pill badge-primary'>organizers</span>"
+    link: "/announcements/tags/organizers/"
+changes:
+    badge: "<span class='badge badge-pill badge-danger'>changes</span>"
+    link: "/announcements/tags/changes/"

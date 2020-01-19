@@ -1,5 +1,10 @@
----
-layout: default
----
-
-{{ content }}
+claire:
+  name: Claire Lundeby
+  image: "/images/organizers/claire.png"
+  email: clairelundeby@gmail.com
+  locale: east-bay
+clarence:
+  name: Clarence Cromwell
+  image: "/images/organizers/clarence.png"
+  email: clarencewcromwell@gmail.com
+  locale: east-bay

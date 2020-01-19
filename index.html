@@ -4,46 +4,58 @@ title: "Write the Docs | SF Bay Area"
 ---
 
 <div class="container-fluid">
-<div class="row justify-content-center py-5" id="homepage-header">
-<div class="col-12 col-md-4">
-    <div class="float-right">
-        <h1 class="title text-right text-white">WRITE<br/>THE<br/>DOCS</h1>
-        <hr>
-        <h1 class="subtitle text-right text-white">Bay Area</h1>
+    <div class="row justify-content-center py-5" id="homepage-header">
+        <div class="col-12 col-md-4">
+            <div class="float-right">
+                <h1 class="title text-right text-white">WRITE<br/>THE<br/>DOCS</h1>
+                <hr>
+                <h1 class="subtitle text-right text-white">Bay Area</h1>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 align-self-center">
+            <div class="d-inline">
+                <h4 class="tagline text-white">Write The Docs is a global community of people who care about documentation. We are a local meetup group for Write The Docs in the San Francisco Bay Area!</h4>
+                <a href="/" role="button" class="btn btn-primary">{{ site.icons.slack }} Join us on Slack!</a>
+                <a href="#next-event" role="button" class="btn btn-primary">{{ site.icons.calendar }} Come to our next event!</a>
+            </div>
+        </div>
     </div>
-</div>
-<div class="col-12 col-md-6 align-middle">
-    <div class="d-inline align-middle">
-        <h4 class="tagline text-white">Write The Docs is a global community of people who care about documentation. We are a local meetup group for Write The Docs in the San Francisco Bay Area!</h4>
-        <a href="/" role="button" class="btn btn-primary">{{ site.icons.slack }} Join us on Slack!</a>
-        <a href="#next-event" role="button" class="btn btn-primary">{{ site.icons.calendar }} Come to our next event!</a>
-
-    </div>
-
-</div>
 </div>
 <div class="container">
     <div class="row justify-content-center mt-5">
+        <div class="col col-md-1 d-none d-md-block">
+            &nbsp;
+        </div>
         <div class="col">
-
-            <div class="card card-topimage mb-3" id="events" style="max-width: 540px;">
-                <div class="card-header card-topimage_header">
-                    <center>{{ site.icons.calendar }}</center>
-                </div>
-                <div class="card-title card-topimage_title">
-                    <h4>Upcoming Event</h4>
-                </div>
+            {% assign next-event = site.data.events.events-2020[site.next_event] %}
+            <div class="card mb-3 mx-auto">
                 <div class="card-body">
-                    Project night!
-                </div>
-                <div class="card-footer">
-                    <a role="button" class="btn btn-primary" href="/events/upcoming/">Join us</a>
+                    <h2 class="card-title">Next Meetup: {{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h2>
+                    <p class="card-text">{{ next-event.description | markdownify }}</p>
+                    <a role="button" class="btn btn-primary" href="{{ next-event.path | prepend: site.baseurl }}">Join us!</a>
                 </div>
             </div>
 
-            <h2>Updates from the team</h2>
-        </div>
-    </div><!-- End div row -->
-</div>
+            <h2 class="display-4 pt-3">Updates from the team</h2>
+            {% assign announcements = site.announcements %}
 
-</div><!-- End div container-->
+            {% for announcement in announcements limit:3 %}
+            {% unless announcement.listing %}
+            <h3>{{ announcement.title }}</h3>
+            <h5>{{ announcement.announcement-date | date: "%B %d, %Y" }}</h5>
+            <h5>
+                {% for tag in announcement.tags %}
+                <a href="{{ site.data.announcements.tags[tag].link }}">{{ site.data.announcements.tags[tag].badge }}</a>
+                {% endfor %}
+            </h5>
+            <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
+            <a href="{{ announcement.url }}">Read more...</a>
+            <hr>
+            {% endunless %}
+            {% endfor %}
+        </div>
+        <div class="col col-md-1 d-none d-md-block">
+            &nbsp;
+        </div>
+    </div>
+</div>
