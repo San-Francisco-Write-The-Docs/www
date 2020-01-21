@@ -29,8 +29,8 @@
 #    - item:
 #      title: Organizers
 #      link: "/about/organizers/"
-- item:
-  title: Get Involved
-  id: get-involved
-  cta: true
-  link: "/organizers/involvement-survey/"
+#- item:
+#  title: Get Involved
+#  id: get-involved
+#  cta: true
+#  link: "/organizers/involvement-survey/"
