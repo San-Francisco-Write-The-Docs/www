@@ -15,7 +15,7 @@
                 {% assign subnav-items = item.subnav %}
                 {% for subnav-item in subnav-items %}
                 <a class="dropdown-item" href="{{ subnav-item.link }}">
-                    {{ subnav-item.title }}
+                    {{ subnav-item.title }}{% if subnav-item.external %}<i class="fas fa-external-link-square-alt"></i>{% endif %}
                 </a>
                 {% endfor %}
             </div>
@@ -24,7 +24,7 @@
             {% if item.cta %}
             <a role="button" class="btn btn-outline-primary ml-2" href="{{ item.link }}">{{ item.title }}</a>
             {% else %}
-            <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+            <a class="nav-link" href="{{ item.link }}">{{ item.title }} {% if item.external %}<i class="fas fa-external-link-square-alt"></i>{% endif %}</a>
             {% endif %}
         </li>
         {% endif %}

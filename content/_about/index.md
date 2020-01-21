@@ -1,6 +1,13 @@
-# About us
+---
+layout: about
+title: About our meetup group
+permalink: /about/
+toc: true
+---
+<hr>
 
 ## Who we are and what we're about
+
 Write The Docs Bay Area is a local chapter of the Write The Docs organization. Our group plans meetups about whatever is new, smart, or making waves in documentation. We meet in San Francisco, the East Bay, and the South Bay, because our members are all over the Bay Area.
 
 Write The Docs is comprised of people who care about making the user experience better by creating excellent documentation. We are writers, developers, designers, learning professionals, and documentation enthusiasts.
@@ -10,7 +17,6 @@ Come to our meetup to talk about what makes documentation great, and to meet oth
 ## Other sites owned by Write The Docs Bay Area
 
 * To see upcoming and past events, go to our [Meetup.com](https://www.meetup.com/Write-the-Docs-SF/events/) page.
-
 * To contribute to projects, check out our [GitHub repo](https://github.com/San-Francisco-Write-The-Docs).
 
 ## How to contact us
@@ -22,9 +28,9 @@ Drop us a line:
 * If you want to volunteer to help organize meetups.
 * For any other reason.
 
-*Email:* wtdmeetupsf@gmail.com.
+*Email:* [wtdmeetupsf@gmail.com](mailto:wtdmeetups@gmail.com)
 
-*Slack:* #sf-bayarea-org channel in the Write The Docs slack team.
+*Slack:* [#bayarea-sf-org](https://app.slack.com/client/T0299N2DL/C8AUYPYHL/details/info) channel in the Write The Docs slack team.
 
 ## How to join us or get involved with organizing
 
@@ -42,11 +48,11 @@ Our conferences create a time and a place for the global community of documentar
 
 * Find out more about the Write The Docs at the [home page](https://www.writethedocs.org/).
 
-## About the conferences
+### About the conferences
 
 Write The Docs hosts [conferences](https://www.writethedocs.org/conf/) in Portland, Prague, and other cities every year.
 
-## Code of conduct
+### Code of conduct
 
 Write The Docs has a code of conduct and everybody who participates in our community is required to conform to it. This includes welcoming everyone to the community, and treating them with respect, kindness, and consideration.
 

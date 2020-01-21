@@ -58,6 +58,7 @@ These are the roles that have to be filled for every meetup. You're allowed to f
 * *Program Planner* - Plans an event by finding a topic and speaker. Collects information about speakers and events for the event listings.
 * *Venue planner* - Finds corporate sponsors to provide a venue and food. Collects information about the venue for the event listing.
 * *Promotions planner* - Promotes events by multiple platforms and builds an audience for the Twitter account by posting between meetups.
+* *Supercoordinator* - Schedules regular meetings to monitor and track progress toward each event. Leads discussions about planning and problem-solving. Drives the planning process forward by allocating people where they are needed to handle planning tasks and solve problems.
 
 ### Day-of-event tasks
 
