@@ -1,5 +1,5 @@
 .wrapper {
-  min-height: calc(100vh - $footer-height);
+  min-height: calc(100vh - 215px);
   @include media-breakpoint-down(md) {
     min-height: 100vh;
   }
