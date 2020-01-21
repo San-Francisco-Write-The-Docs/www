@@ -21,14 +21,14 @@
   subnav:
     - item:
       title: Our Meetup Group
-      link: "/about/meetup-group/"
+      link: "/about/"
     - item:
-      title: Write the Docs
+      title: Write The Docs
       external: true
       link: "https://writethedocs.org"
-    - item:
-      title: Organizers
-      link: "/about/organizers/"
+#    - item:
+#      title: Organizers
+#      link: "/about/organizers/"
 - item:
   title: Get Involved
   id: get-involved
