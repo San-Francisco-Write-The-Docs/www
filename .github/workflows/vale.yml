@@ -12,9 +12,8 @@ jobs:
         with:
           files: all
           styles: |
-            https://github.com/errata-ai/write-good/releases/latest/download/vale.zip
-            https://github.com/errata-ai/Microsoft/releases/latest/download/proselint.zip
             https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+            https://github.com/errata-ai/Joblint/releases/latest/download/Joblint.zip
           config: |
             https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
         env:
