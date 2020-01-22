@@ -6,7 +6,8 @@
 - [ ] I have served the site locally and verified that the build is successful and my changes render correctly. 
 
 <!-- Link to the issue(s) that this pull request addresses-->
-*   Fixes `#1` 
+<!-- Use this syntax: `closes #1` closes {issue-no} -->
+*   Closes `#1` 
 
 |Info|Yours|
 |:---|:---|
