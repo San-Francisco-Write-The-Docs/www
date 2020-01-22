@@ -1,6 +1,6 @@
 ---
 layout: announcements/listing
-title: Updates from the team
+title: Announcements
 listing: true
 permalink: /announcements/
 ---

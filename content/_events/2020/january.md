@@ -3,6 +3,7 @@ layout: events/event
 title: January Project Night
 id: jan-2020-project-night
 event-date: Thursday, January 23, 2019
+year: 2020
 locale: east-bay
 location: san-lorenzo-library
 rsvp_open: true

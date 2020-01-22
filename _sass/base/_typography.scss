@@ -10,3 +10,8 @@
 .tagline {
   font-family: $font-family-sans-serif;
 }
+
+.fa-rotate-315 {
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+}

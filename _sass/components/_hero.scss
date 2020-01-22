@@ -8,6 +8,7 @@
 
     background: $white;
     border-bottom: 1px solid $gray-200;
+    border-top: 1px solid $gray-200;
     .badge { vertical-align: middle }
 }
 
@@ -21,6 +22,9 @@
         font-size: 3.75rem;
     }
     font-size: 2rem;
+}
+.hero-text {
+    padding-left: 15px;
 }
 
 .hero-date {

@@ -1,7 +1,21 @@
+## LOCATIONS
+
+# For location-id: Use lowercase and dashes (-) instead of spaces, e.g. "San Lorenzo Library" becomes "san-lorenzo-library".
+# For map: Use the path (relative to the _includes directory) for where the Google Map iFrame for this location is.
+
+# Note: The "getting-here" section is optional.
+
+### TEMPLATE
+
+#location-id:
+#  name: Location Full Name
+#  map: "locations/file-name.html"
+#  getting-here:
+#    - "Add any getting here details as an array"
+
 san-lorenzo-library:
   name: San Lorenzo Library
   map: "locations/san-lorenzo-library.html"
-  address:
   getting-here:
     - "BART: Take BART to the Bayfair station, then take the 97 bus to Hesperian and Paseo Grande."
     - "BIKE: Bike racks in front of the library."

@@ -37,21 +37,21 @@ title: "Write the Docs | SF Bay Area"
             </div>
 
             <h2 class="display-4 pt-3">Updates from the team</h2>
-            {% assign announcements = site.announcements %}
+            <hr>
+            {% assign announcements = site.announcements | where: "layout","announcements/announcement" | sort: "announcement-date" | reverse %}
 
             {% for announcement in announcements limit:3 %}
-            {% unless announcement.listing %}
-            <h3>{{ announcement.title }}</h3>
-            <h5>{{ announcement.announcement-date | date: "%B %d, %Y" }}</h5>
-            <h5>
-                {% for tag in announcement.tags %}
-                <a href="{{ site.data.announcements.tags[tag].link }}">{{ site.data.announcements.tags[tag].badge }}</a>
-                {% endfor %}
-            </h5>
-            <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
-            <a href="{{ announcement.url }}">Read more...</a>
-            <hr>
-            {% endunless %}
+            <div class="mb-5">
+                <h3>{{ announcement.title }}</h3>
+                <h5>{{ announcement.announcement-date | date: "%B %d, %Y" }}</h5>
+                <h5>
+                    {% for tag in announcement.tags %}
+                    <a href="{{ site.data.announcements.tags[tag].link }}">{{ site.data.announcements.tags[tag].badge }}</a>
+                    {% endfor %}
+                </h5>
+                <p>{{ announcement.excerpt | truncatewords: 250 }}</p>
+                <a href="{{ announcement.url }}">Read more...</a>
+            </div>
             {% endfor %}
         </div>
         <div class="col col-md-1 d-none d-md-block">
