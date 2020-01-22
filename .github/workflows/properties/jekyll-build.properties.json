@@ -1,6 +1,0 @@
-{
-  "name": "Jekyll Build",
-  "description": "Package a Jekyll site using the jekyll/builder Docker image.",
-  "iconName": "jekyll",
-  "categories": ["Jekyll"]
-}

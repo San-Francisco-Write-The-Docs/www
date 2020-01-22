@@ -1,0 +1,5 @@
+extends: existence
+message: Did you mean 'Write The Docs'?
+level: warning
+tokens:
+  - Write the Docs
