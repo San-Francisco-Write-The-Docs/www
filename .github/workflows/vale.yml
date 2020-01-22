@@ -2,9 +2,9 @@ name: Linting
 on:
   push:
     paths:
-      - 'content/*'
+      - 'content/**/*'
+      - '*.md'
       - index.html
-      - README.md
 
 jobs:
   prose:
