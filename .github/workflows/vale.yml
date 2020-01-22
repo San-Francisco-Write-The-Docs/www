@@ -1,11 +1,5 @@
 name: Linting
-on:
-  push:
-    paths:
-      - 'content/*'
-      - index.html
-      - README.md
-
+on: [push]
 jobs:
   prose:
     runs-on: ubuntu-latest
@@ -16,10 +10,11 @@ jobs:
       - name: Vale
         uses: errata-ai/vale-action@v1.0.4
         with:
-          files:
+          files: all
           styles: |
-            https://github.com/errata-ai/write-good/releases/latest/download/valezip
-            https://github.com/errata-ai/Microsoft/releases/latest/download/proselint.zip
             https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+            https://github.com/errata-ai/Joblint/releases/latest/download/Joblint.zip
+          config: |
+            https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

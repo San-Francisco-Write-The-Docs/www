@@ -1,5 +1,6 @@
-extends: existence
-message: Did you mean 'Write The Docs'?
-level: warning
-tokens:
-  - Write the Docs
+extends: substitution
+message: Use '%s' instead of '%s'
+level: error
+swap:
+  Write The Docs: Write the Docs
+  WTD: WtD
