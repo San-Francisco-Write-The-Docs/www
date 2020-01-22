@@ -10,7 +10,7 @@ jobs:
       - name: Vale
         uses: errata-ai/vale-action@v1.0.4
         with:
-          files:
+          files: all
           styles: |
             https://github.com/errata-ai/write-good/releases/latest/download/vale.zip
             https://github.com/errata-ai/Microsoft/releases/latest/download/proselint.zip
