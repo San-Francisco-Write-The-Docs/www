@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
-{% assign events = site.data.events[page.data] %}
+
+{% assign events = site.events | where: "year", page.year | where: "layout", "events/event" %}
+
 
 <div class="container mt-3">
+    <div class="row">
+        <div class="col">{% include events/breadcrumb.html %}</div>
+    </div>
     <div class="row">
         <div class="col-12 col-md-3">
             <nav id="toc" data-toggle="toc"></nav>
@@ -13,11 +18,11 @@ layout: default
                 <div class="card mb-3" style="max-width: 650x;">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-8">
-                                <h3>{{ event.name }} {{ site.data.locales[event.locale].badge }}</h3>
+                            <div class="col-12 col-md-7">
+                                <h3 data-toc-text="{{ event.title }}">{{ event.title }} {{ site.data.locales[event.locale].badge }}</h3>
                             </div>
-                            <div class="col-4">
-                                <p class="text-muted">{{ event.month }} {{ event.day }} @ {{ event.location }}</p>
+                            <div class="col-12 col-md-5">
+                                <p class="text-muted">{{ event.event-date | date: "%B %d" }} @ {{ site.data.locations[event.location].name }}</p>
                             </div>
                         </div>
                         {% if event.sponsor %}
@@ -27,7 +32,7 @@ layout: default
                         {% if event.upcoming %}
                         <div class="row justify-content-end">
                             <div class="col">
-                                <a role="button" href="{{ event.path }}" class="btn btn-primary">Join us!</a>
+                                <a role="button" href="{{ event.url }}" class="btn btn-primary">Join us!</a>
                             </div>
                         </div>
                         {% endif %}
