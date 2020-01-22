@@ -1,8 +1,12 @@
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">{{ site.icons.home }}</a></li>
+        {% unless page.top %}
         <li class="breadcrumb-item"><a href="/events/">Events</a></li>
+        {% endunless %}
+        {% if page.event-date %}
         <li class="breadcrumb-item"><a href="/events/{{ page.year }}/">{{ page.year }}</a></li>
+        {% endif %}
         <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
     </ol>
 </nav>
