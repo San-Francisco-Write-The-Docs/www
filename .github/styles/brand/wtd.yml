@@ -1,5 +1,0 @@
-extends: existence
-message: Did you mean 'WTD'?
-level: warning
-tokens:
-  - WtD
