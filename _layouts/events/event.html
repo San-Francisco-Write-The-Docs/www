@@ -64,14 +64,13 @@ layout: default
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="card-body">
                         <h5 class="card-title">{{ site.icons.map }}  {{ location.name }}</h5>
-                        <p class="card-text"> Getting here:
+                        <p class="card-text">Getting here:</p>
                             <ul>
                             {% for item in location.getting-here %}
                             <li>{{ item }}</li>
                             {% endfor %}
                             </ul>
-                        </p>
-                        {% include locations/san-lorenzo-library.html %}
+                            {% include locations/{{ page.location }}.html %}
                     </div>
                 </div>
             </div>
