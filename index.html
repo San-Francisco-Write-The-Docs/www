@@ -15,8 +15,8 @@ title: "Write the Docs | SF Bay Area"
         <div class="col-12 col-md-6 align-self-center">
             <div class="d-inline">
                 <h4 class="tagline text-white">Write The Docs is a global community of people who care about documentation. We are a local meetup group for Write The Docs in the San Francisco Bay Area!</h4>
-                <a href="/" role="button" class="btn btn-primary">{{ site.icons.slack }} Join us on Slack!</a>
-                <a href="#next-event" role="button" class="btn btn-primary">{{ site.icons.calendar }} Come to our next event!</a>
+                <a href="https://join.slack.com/t/writethedocs/shared_invite/enQtNzQ2NzkwODQ3NDkwLWZhY2U4YTg5YjAyODk1NzkxYzI0ZmFjOWMxNWEwOWNjZDE3NDZjMmJiZTlkODc4Y2ZlNjkxNGIyNzMxNDkzZjA" role="button" class="btn btn-primary">{{ site.icons.slack }} Join us on Slack!</a>
+                <a href="{{ next-event.url | prepend: site.baseurl }}" role="button" class="btn btn-primary">{{ site.icons.calendar }} Come to our next event!</a>
             </div>
         </div>
     </div>
@@ -27,12 +27,12 @@ title: "Write the Docs | SF Bay Area"
             &nbsp;
         </div>
         <div class="col">
-            {% assign next-event = site.data.events.events-2020[site.next_event] %}
+            {% assign next-event = site.events | where: "event-id", site.next_event | first %}
             <div class="card mb-3 mx-auto">
                 <div class="card-body">
-                    <h2 class="card-title">Next Meetup: {{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h2>
+                    <h2 class="card-title">Next Meetup: {{ next-event.title }} {{ site.data.locales[next-event.locale].badge }}</h2>
                     <p class="card-text">{{ next-event.description | markdownify }}</p>
-                    <a role="button" class="btn btn-primary" href="{{ next-event.path | prepend: site.baseurl }}">Join us!</a>
+                    <a role="button" class="btn btn-primary" href="{{ next-event.url | prepend: site.baseurl }}">Join us!</a>
                 </div>
             </div>
 

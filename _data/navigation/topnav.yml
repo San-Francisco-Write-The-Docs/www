@@ -10,7 +10,7 @@
       title: "Next Event"
       link: "/events/upcoming/"
     - item:
-      title: Past Events
+      title: All Events
       link: "/events/"
     - item:
       title: Share a Meetup Idea
