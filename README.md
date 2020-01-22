@@ -2,7 +2,7 @@
 
 This is the code that powers [writethedocs-sfbay.org](https://writethedocs-sfbay.org). It contains information about our Bay Area Write The Docs meetup group, as well as our announcements and our meetup events. Our site is built with Jekyll.
 
-To contribute to the Bay Area Write The Docs website, it's helpful to familiarize yourself with [Jekyll](https://jekyllrb.com/docs/) and [Markdown (Kramdown flavor)](https://kramdown.gettalong.org/).
+To contribute to the Bay Area Write The Docs website, it's helpful to familiarize yourself with [Jekyll](https://jekyllrb.com/docs/) and [Markdown (Kramdown flavor)](https://kramdown.gettalong.org/). Then, check out our [Contribution Guidelines](https://github.com/San-Francisco-Write-The-Docs/www/blob/master/CONTRIBUTING.md)! 
 
 ## Generate the Site Locally
 
