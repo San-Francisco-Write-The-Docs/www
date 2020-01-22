@@ -1,11 +1,11 @@
 ---
 layout: events/event
-published: false
 title: February Event Name
-id: feb-2020-event-id
-event-date: Thursday, February day, 2019
-locale: locale
-location: location
+event-id: feb-2020-event-id
+year: 2020
+event-date: Thursday, February 21, 2020
+locale: san-francisco
+location: san-lorenzo-library
 rsvp_open: true
 form: 
   id: feb-2020-signup

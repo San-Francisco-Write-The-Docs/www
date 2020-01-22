@@ -1,12 +1,17 @@
 ---
 layout: events/event
+upcoming: true
+event-id: jan-2020-project-night
 title: January Project Night
-id: jan-2020-project-night
-event-date: Thursday, January 23, 2019
+event-date: Thursday, January 23, 2020
 year: 2020
 locale: east-bay
 location: san-lorenzo-library
 rsvp_open: true
+description: |
+  If you have a project, bring it with you:
+    * Need to write docs for your software? Get feedback about what documents your product requires, what information each should contain, and how to get started.
+    * Are you a technical writer with a challenging new task? Bring your project with you, and recruit advisers or reviewers
 form: 
   id: jan-2020-signup
   title: RSVP to our Project Night

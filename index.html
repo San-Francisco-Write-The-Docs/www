@@ -27,10 +27,10 @@ title: "Write the Docs | SF Bay Area"
             &nbsp;
         </div>
         <div class="col">
-            {% assign next-event = site.data.events.events-2020[site.next_event] %}
+            {% assign next-event = site.events | where: "event-id", site.next_event | first %}
             <div class="card mb-3 mx-auto">
                 <div class="card-body">
-                    <h2 class="card-title">Next Meetup: {{ next-event.name }} {{ site.data.locales[next-event.locale].badge }}</h2>
+                    <h2 class="card-title">Next Meetup: {{ next-event.title }} {{ site.data.locales[next-event.locale].badge }}</h2>
                     <p class="card-text">{{ next-event.description | markdownify }}</p>
                     <a role="button" class="btn btn-primary" href="{{ next-event.path | prepend: site.baseurl }}">Join us!</a>
                 </div>
