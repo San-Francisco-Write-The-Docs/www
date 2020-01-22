@@ -1,11 +1,5 @@
 name: Linting
-on:
-  push:
-    paths:
-      - 'content/**/*'
-      - '*.md'
-      - index.html
-
+on: [push]
 jobs:
   prose:
     runs-on: ubuntu-latest
