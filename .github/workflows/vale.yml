@@ -12,8 +12,10 @@ jobs:
         with:
           files:
           styles: |
-            https://github.com/errata-ai/write-good/releases/latest/download/valezip
+            https://github.com/errata-ai/write-good/releases/latest/download/vale.zip
             https://github.com/errata-ai/Microsoft/releases/latest/download/proselint.zip
             https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+          config: |
+            https://github.com/San-Francisco-Write-The-Docs/www/blob/master/.github/.vale.ini
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
