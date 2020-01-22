@@ -54,19 +54,19 @@ There are templates available for announcements and events. Please use these whe
 
 ### Reporting Bugs
 
-{{ content }}
+To be added
 
 ### Suggesting Enhancements
 
-{{ content }}
+To be added
 
 ### Your First Code Contribution
 
-{{ content }}
+To be added
 
 #### Local development
 
-{{ content }}
+To be added
 
 ### Pull Requests
 
