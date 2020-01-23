@@ -34,6 +34,7 @@ Write The Docs Bay Area will still use Meetup.com as long as it's available for 
 Although we're still using Meetup.com to announce events, organizers were compelled to think about alternatives in light of the uncertainties surrounding WeWork, the parent company of Meetup.com. Write The Docs Bay Area has relied on Meetup.com since WTD began to meet in the Bay Area more than six years ago.
 
 Bay Area Supercoordinator Liz Harris said the necessity for a new site was apparent when organizers realized in the midst of a December planning session that they were depending on a company with an uncertain future for almost all contact with members. Meetup.com has been used to process RSVPs to events, to send email communications to members, and to follow up with messages like "Nice to see you."
+
 "We won't be able to replace all those features," Harris said, "but we won't be subject to the vicissitudes of WeWork."
 
 --CWC
