@@ -7,7 +7,7 @@ event-date: Thursday, February 21, 2020
 locale: san-francisco
 location: san-lorenzo-library
 rsvp_open: true
-form: 
+form:
   id: feb-2020-signup
   title: RSVP to our Event
   embed: |
@@ -15,5 +15,3 @@ form:
 agenda: |
     agenda here as markdown
 ---
-
-REMOVE PUBLISHED:FALSE FROM FRONT MATTER TO USE THIS EVENT
