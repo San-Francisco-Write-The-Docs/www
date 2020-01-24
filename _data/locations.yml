@@ -13,6 +13,13 @@
 #  getting-here:
 #    - "Add any getting here details as an array"
 
+linkedin:
+  name: LinkedIn
+  map: "locations/linkedin.html"
+  getting-here:
+    - "TRANSIT: TBD"
+    - "BIKE: TBD"
+    - "CAR: TBD"
 san-lorenzo-library:
   name: San Lorenzo Library
   map: "locations/san-lorenzo-library.html"
