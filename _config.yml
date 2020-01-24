@@ -4,13 +4,13 @@ github: "https://github.com/San-Francisco-Write-The-Docs/www"
 
 timezone: America/Los_Angeles
 include: ["_includes/"]
-exclude: [".idea/**/*", "CNAME", "README.md","gulpfile.js", "package.json","package-lock.json","Gemfile","Gemfile.lock","writethedocs.iml"]
+exclude: [".idea/**/*", "CNAME", "README.md","gulpfile.js", "package.json","package-lock.json","Gemfile","Gemfile.lock","writethedocs.iml","node_modules/*"]
 
 collections_dir: content
 collections:
   about:
     permalink: /:collection/:path/
-    name: About
+    name: Abouts
     output: true
   announcements:
     permalink: /:collection/:path/
