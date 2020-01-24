@@ -23,6 +23,7 @@ agenda: |
     *   _Announcements & project pitches_ - 6:30 p.m.
     *   _Hacking & learning_ - 6:30 to 8:30 p.m.
     *   _Closing word, cleanup, say goodbye_ - 8:30 to 9 p.m.
+recording: false
 ---
 
 
