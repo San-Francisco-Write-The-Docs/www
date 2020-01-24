@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 event-id: jan-2020-project-night
 title: January Project Night
 event-date: Thursday, January 23, 2020
