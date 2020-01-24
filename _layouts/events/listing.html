@@ -2,8 +2,9 @@
 layout: default
 ---
 
-{% assign events = site.events | where: "year", page.year | where: "layout", "events/event" %}
 
+{% assign events = site.events | where: "year", page.year | where: "layout", "events/event" %}
+{% assign upcoming-events = events | where: "upcoming", true %}
 
 <div class="container mt-3">
     <div class="row">
@@ -11,38 +12,22 @@ layout: default
     </div>
     <div class="row">
         <div class="col-12 col-md-3">
-            <nav id="toc" data-toggle="toc"></nav>
+            <div class="sticky-top">
+                <nav id="toc" data-toggle="toc"></nav>
+            </div>
         </div>
         <div class="col-12 col-md-9">
+            <h2 id="upcoming-events">Upcoming Events</h2>
+            <hr>
+            {% for event in upcoming-events %}
+            {% include events/event-listing-card.html %}
+            {% endfor %}
+            <h2 id="past-events">Past Events</h2>
+            <hr>
             {% for event in events %}
-                <div class="card mb-3" style="max-width: 650x;">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12 col-md-7">
-                                <h3 data-toc-text="{{ event.title }}">{{ event.title }} {{ site.data.locales[event.locale].badge }}</h3>
-                            </div>
-                            <div class="col-12 col-md-5">
-                                <p class="text-muted">{{ event.event-date | date: "%B %d" }} @ {{ site.data.locations[event.location].name }}</p>
-                            </div>
-                        </div>
-                        {% if event.sponsor %}
-                        <h4><em>Sponsored by {{ event.sponsor }}</em></h4>
-                        {% endif %}
-                        <p>{{ event.description | markdownify }}</p>
-                        {% if event.upcoming %}
-                        <div class="row justify-content-end">
-                            <div class="col">
-                                <a role="button" href="{{ event.url }}" class="btn btn-primary">Join us!</a>
-                            </div>
-                        </div>
-                        {% endif %}
-                    </div>
-                    {% if event.recording %}
-                    <div class="card-footer">
-                        A recording for this event is available <a href="{{ event.recording.link }}">here</a>.
-                    </div>
-                    {% endif %}
-                </div>
+            {% unless event.upcoming %}
+            {% include events/event-listing-card.html %}
+            {% endunless %}
             {% endfor %}
         </div>
     </div>
