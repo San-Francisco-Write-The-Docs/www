@@ -7,7 +7,7 @@ event-date: Thursday, January 23, 2020
 year: 2020
 locale: east-bay
 location: san-lorenzo-library
-rsvp_open: true
+rsvp_open: false
 description: |
   If you have a project, bring it with you:
     * Need to write docs for your software? Get feedback about what documents your product requires, what information each should contain, and how to get started.
