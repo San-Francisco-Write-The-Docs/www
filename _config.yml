@@ -32,7 +32,9 @@ next_event: feb-2020-lightning-talks
 # Note: To add a new icon, replace the double quotes in the class with single quotes (for YML).
 # Syntax: {{ site.icons.<icon_name> }}
 icons:
+  bolt: "<i class='fas fa-bolt'></i>"
   calendar: "<i class='far fa-calendar-plus'></i>"
+  chalkboard-teacher: "<i class='fas fa-chalkboard-teacher'></i>"
   clock: "<i class='far fa-clock'></i>"
   envelope: "<i class='far fa-envelope'></i>"
   external: "<i class='fal fa-external-link'></i>"
