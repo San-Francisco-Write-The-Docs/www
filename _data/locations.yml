@@ -13,6 +13,16 @@
 #  getting-here:
 #    - "Add any getting here details as an array"
 
+linkedin:
+  name: LinkedIn
+  map: "locations/linkedin.html"
+  getting-here:
+    - "TRANSIT: The Montgomery BART station about two blocks away on Market. Cal train is about 3/4 of a mile from the building."
+    - "BIKE: Bike parking is located in the parking garage. If guests arrive before 7 they can ride directly there and park their bikes and then access the garage through the lobby when the building closes. They can talk to the receptionists upon arrival for more help with this one. Please note and bikes brought through the lobby will have to be carried, not wheeled."
+    - "CAR: Street parking is very limited around the building. There are some parking garages nearby but the one in the LinkedIn building closes at 7pm (recommend guests not park there given the time of the event). The Moscone Center Garage is a good option for those who want to drive."
+    - "DETAILS: Guests check-in at the lobby, walk up the stairs to the second floor, and follow the signs to the room: Focus (floor 2), capacity is 300 people."
+    
+
 san-lorenzo-library:
   name: San Lorenzo Library
   map: "locations/san-lorenzo-library.html"
