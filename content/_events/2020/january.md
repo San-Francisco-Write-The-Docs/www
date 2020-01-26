@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 event-id: jan-2020-project-night
 title: January Project Night
 event-date: Thursday, January 23, 2020
@@ -23,6 +23,7 @@ agenda: |
     *   _Announcements & project pitches_ - 6:30 p.m.
     *   _Hacking & learning_ - 6:30 to 8:30 p.m.
     *   _Closing word, cleanup, say goodbye_ - 8:30 to 9 p.m.
+recording: false
 ---
 
 

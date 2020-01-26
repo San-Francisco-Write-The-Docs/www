@@ -8,17 +8,16 @@
 nav[data-toggle="toc"] .nav > li > a {
   display: block;
   padding: 4px 20px;
-  font-size: 13px;
   font-weight: 500;
-  color: #767676;
+  color: $link-color;
 }
 nav[data-toggle="toc"] .nav > li > a:hover,
 nav[data-toggle="toc"] .nav > li > a:focus {
   padding-left: 19px;
-  color: #563d7c;
+  color: $link-hover-color;
   text-decoration: none;
   background-color: transparent;
-  border-left: 1px solid #563d7c;
+  border-left: 1px solid $link-hover-color;
 }
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
@@ -27,7 +26,7 @@ nav[data-toggle="toc"] .nav-link.active:focus {
   font-weight: bold;
   color: #563d7c;
   background-color: transparent;
-  border-left: 2px solid #563d7c;
+  border-left: 2px solid $primary;
 }
 
 // Nav: second level (shown on .active)
@@ -41,7 +40,6 @@ nav[data-toggle="toc"] .nav .nav > li > a {
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 30px;
-  font-size: 12px;
   font-weight: normal;
 }
 nav[data-toggle="toc"] .nav .nav > li > a:hover,

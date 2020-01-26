@@ -1,0 +1,33 @@
+<div class="card mb-3" style="max-width: 650x;">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <h3 id="{{ event.event-id }}" data-toc-text="{{ event.title }}">{{ event.title }} {{ site.data.locales[event.locale].badge }}</h3>
+            </div>
+            <div class="col-12 col-md-5">
+                {% unless page.year %}
+                <p class="text-muted">{{ event.event-date | date: "%B %d" }}, {{ event.year }} @ {{ site.data.locations[event.location].name }}</p>
+                {% endunless %}
+                {% if page.year %}
+                <p class="text-muted">{{ event.event-date | date: "%B %d" }} @ {{ site.data.locations[event.location].name }}</p>
+                {% endif %}
+            </div>
+        </div>
+        {% if event.sponsor %}
+        <h5 data-toc-skip><em>Sponsored by {{ event.sponsor }}</em></h5>
+        {% endif %}
+        <p>{{ event.description | markdownify }}</p>
+        {% if event.upcoming %}
+        <div class="row justify-content-end">
+            <div class="col">
+                <a role="button" href="{{ event.url }}" class="btn btn-primary">Join us!</a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% if event.recording %}
+    <div class="card-footer">
+        A recording for this event is available <a href="{{ event.recording.link }}">here</a>.
+    </div>
+    {% endif %}
+</div>
