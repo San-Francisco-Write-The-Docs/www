@@ -10,9 +10,9 @@ tags:
 ---
 
 
-# We have a new website.
+## We have a new website.
 
-The site you're reading becomes the home of Write The Docs Bay Area as of today, thanks to Jekyll and Bootstrap -- and the persistence of Claire Lundeby.
+The site you're reading becomes the home of Write The Docs Bay Area as of January 27, 2020, thanks to Jekyll and Bootstrap -- and the persistence of Claire Lundeby.
 
 One reason for the site is to duplicate some of the features we've been using on Meetup.com, a subsidiary of the struggling startup WeWork.
 
@@ -27,9 +27,9 @@ Lundeby decided to use Bootstrap because the framework provides components like 
 
 Lundeby's second project with Jekyll and Bootstrap went much easier than the first. She made the first commit December 19, shortly after the urgency of building a site became apparent. Less than a month later this site was visible on the web, much the way it looks today.
 
-"I benefitted from having built a Jekyll site before," she said. "There was a lot more swearing that time."
+"I benefited from having built a Jekyll site before," she said. "There was a lot more swearing that time."
 
-Write The Docs Bay Area will still use Meetup.com as long as it's available for free, but now members can also use this site to learn about upcoming events and to RSVP to them.
+Write The Docs Bay Area will still use Meetup.com as long as it's practical, but now members can also use this site to learn about upcoming events and to RSVP to them.
 
 Although we're still using Meetup.com to announce events, organizers were compelled to think about alternatives in light of the uncertainties surrounding WeWork, the parent company of Meetup.com. Write The Docs Bay Area has relied on Meetup.com since WTD began to meet in the Bay Area more than six years ago.
 
