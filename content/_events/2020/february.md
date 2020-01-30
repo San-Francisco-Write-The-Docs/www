@@ -6,6 +6,7 @@ event-id: feb-2020-lightning-talks
 year: 2020
 event-date: Thursday, February 20, 2020
 locale: san-francisco
+
 location: linkedin
 sponsor: TBD
 rsvp_open: false
