@@ -10,9 +10,7 @@ tags:
 ---
 
 
-## We have a new website.
-
-The site you're reading becomes the home of Write The Docs Bay Area as of today, thanks to Jekyll and Bootstrap -- and the persistence of Claire Lundeby.
+**We have a new website!** The site you're reading becomes the home of Write The Docs Bay Area as of today, thanks to Jekyll and Bootstrap -- and the persistence of Claire Lundeby.
 
 One reason for the site is to duplicate some of the features we've been using on Meetup.com, a subsidiary of the struggling startup WeWork.
 
