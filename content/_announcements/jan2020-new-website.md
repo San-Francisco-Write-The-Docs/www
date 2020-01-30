@@ -3,7 +3,7 @@ layout: announcements/announcement
 title: Our new website
 announcement-date: January 30, 2020
 author: clarence
-toc: true
+toc: false
 tags:
  - news
  - website
