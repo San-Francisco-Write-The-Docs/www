@@ -1,6 +1,0 @@
-{
-  "name": "Vale",
-  "description": "Vale prose linter checks for spelling, grammar, and word choice issues",
-  "iconName": "vale-linter",
-  "categories": ["Lint"]
-}
