@@ -2,8 +2,6 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-// Adding purposfuly mispeled words to test Vale linter
-
 The following is a set of guidelines for contributing to our Write The Docs Bay Area website, which is hosted in the [San-Francisco-Write-The-Docs/www repository](https://github.com/San-Francisco-Write-The-Docs/www) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
