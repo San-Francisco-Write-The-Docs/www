@@ -41,7 +41,7 @@ icons:
   food: "<i class='fas fa-utensils'></i>"
   github: "<i class='fab fa-github-square'></i>"
   hands-helping: "<i class='fas fa-hands-helping'></i>"
-  home: "<i class='fad fa-home'></i>"
+  home: "<i class='fas fa-home'></i>"
   info-circle: "i class='fas fa-info-circle'></i>"
   lightbulb: "<i class='far fa-lightbulb'></i>"
   linkedin: "<i class='fab fa-linkedin'></i>"
