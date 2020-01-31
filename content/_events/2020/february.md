@@ -6,6 +6,7 @@ event-id: feb-2020-lightning-talks
 year: 2020
 event-date: Thursday, February 20, 2020
 locale: san-francisco
+
 location: linkedin
 sponsor: TBD
 rsvp_open: false
@@ -53,12 +54,38 @@ For some lightning talk examples see:
 
 *   [Write The Docs Portland 2016 - Day 1 Lightning Talks (Monday)](https://www.youtube.com/watch?v=LW0NJAbRjc8&index=24&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv)
 *   [Write The Docs Portland 2016 - Day 2 Lightning Talks (Tuesday)](https://www.youtube.com/watch?v=NFAonb8sII0&index=25&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv)
+ 
 
 ## Sign up to present
 
-If you plan to do a lightning talk, please let us know by filling out this form: <google-form> {{ site.icons.bolt }}
+If you plan to do a lightning talk, please let us know by filling out this form:
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-lg btn-primary mb-3" data-toggle="modal" data-target="#lightning-talk-signups">
+    Sign up to give a talk {{ site.icons.bolt }}
+</button>
+<!-- Modal -->
+<div class="modal fade" id="lightning-talk-signups" tabindex="-1" role="dialog" aria-labelledby="lightning-talk-signups" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="lightning-talk-signups-title">Lightning Talk Signup</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfh_XSIQL7nCp6pMWs0SI8aBJtaA7TLs8cnMEFRkbsbhZabOQ/viewform?embedded=true" width="640" height="1067" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 ## Food & refreshments
 
-{{ page.sponsor }} is generously providing dinner and beverages. 
+We'll have information about food and refreshments closer to the event.
 

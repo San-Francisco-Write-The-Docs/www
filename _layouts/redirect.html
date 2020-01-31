@@ -2,13 +2,13 @@
 THIS LAYOUT IS MEANT ONLY FOR REDIRECTING "events/upcoming" to our next event!
 {% endcomment %}
 <html>
-{% assign redirect = site.data.events.events-2020[site.next_event].path %}
+{% assign next-event = site.events | where: "event-id", site.next_event | first %}
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="refresh" content="1;url={{ redirect }}"/>
     <link rel="canonical" href="{{ redirect }}"/>
     <script type="text/javascript">
-            window.location.href = "{{ redirect }}"
+            window.location.href = "{{ next-event.url }}"
     </script>
     <title>Redirect to upcoming event</title>
 </head>

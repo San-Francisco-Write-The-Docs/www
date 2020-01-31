@@ -1,28 +1,38 @@
 ---
 layout: announcements/announcement
 title: Our new website
-announcement-date: January 20, 2020
+announcement-date: January 30, 2020
 author: clarence
-toc: true
-tags: 
+toc: false
+tags:
  - news
  - website
 ---
 
-We have a new website. Hooray! Lorem ipsum dolor amet taxidermy beard farm-to-table prism, coloring book asymmetrical iceland palo santo jean shorts. Small batch sartorial skateboard salvia. Bushwick stumptown polaroid copper mug. Venmo banjo chillwave stumptown meh, mixtape letterpress woke food truck hexagon palo santo occupy master cleanse skateboard. Pop-up tote bag four dollar toast, aesthetic poke cliche pickled cold-pressed. Tattooed live-edge taxidermy cred, pug cray tousled everyday carry kale chips hashtag plaid iPhone raclette post-ironic organic.
 
-## Heading 
+**We have a new website!** The site you're reading becomes the home of Write The Docs Bay Area as of today, thanks to Jekyll and Bootstrap -- and the persistence of Claire Lundeby.
 
-Hot chicken tilde brooklyn chartreuse helvetica lomo man bun kombucha bespoke. Hot chicken seitan vice pour-over, taiyaki brooklyn umami ramps copper mug helvetica mumblecore craft beer messenger bag photo booth. Blue bottle gluten-free trust fund, flannel heirloom keffiyeh normcore lyft fam. Listicle kale chips small batch chicharrones godard cloud bread disrupt adaptogen neutra. Lumbersexual wayfarers 8-bit palo santo migas air plant. Direct trade swag ugh, woke leggings XOXO fixie listicle crucifix.
+One reason for the site is to duplicate some of the features we've been using on Meetup.com, a subsidiary of the struggling startup WeWork.
 
-Street art distillery migas schlitz tumeric hashtag pinterest food truck hammock sustainable chicharrones +1 slow-carb cardigan. Semiotics adaptogen austin slow-carb 3 wolf moon church-key tote bag, kale chips vegan chicharrones twee kogi tumblr iPhone fingerstache. 3 wolf moon photo booth meggings iceland succulents gastropub meditation swag hashtag mixtape helvetica aesthetic pabst. Lo-fi artisan PBR&B +1 kale chips. Scenester VHS knausgaard vaporware pop-up irony tofu schlitz. Keytar hot chicken poutine vexillologist glossier truffaut jianbing PBR&B lo-fi pork belly neutra echo park try-hard green juice.
+Lundeby has built a site with this unusual toolkit before. In 2018, after evaluating "a number of tools," including static site generators and CCMS systems, she decided to use Jekyll to build a site for the documentation she maintains for Veeva Systems, a Pleasanton-based cloud-computing company that builds applications for the pharmaceutical and life sciences industry.
 
-## Heading
+She chose Jekyll because it had a largest number of users and the largest support presence of all the likely options. That doesn't mean the job was easy.
 
-Portland hexagon put a bird on it green juice. Yr marfa twee man bun. Hexagon YOLO stumptown, succulents yr chia man bun. Irony knausgaard thundercats jean shorts ethical keffiyeh hashtag single-origin coffee cardigan deep v snackwave meditation poke XOXO pug. Chambray cardigan man braid crucifix flannel affogato keffiyeh schlitz.
+With just a little previous exposure to HTML and CSS, Lundeby waded into Jekyll, only to start over again four or five times, after realizing that each subsequent theme she chose was not going to do the job the way she wanted. She eventually decided to build her own custom theme, which is what her Veeva docs site uses today.
 
-Tumeric leggings mlkshk tote bag. Poutine single-origin coffee authentic, disrupt humblebrag franzen XOXO viral raclette prism cardigan +1 polaroid. Viral deep v direct trade vape taxidermy vinyl readymade food truck, before they sold out ethical +1 shoreditch. Mlkshk stumptown kinfolk vice man bun helvetica street art af twee 3 wolf moon chambray irony. Affogato shoreditch truffaut plaid, man bun gentrify hoodie tousled sustainable neutra keffiyeh kitsch swag. Mixtape polaroid woke art party austin jianbing. Woke before they sold out gentrify vinyl you probably haven't heard of them fam lo-fi disrupt gochujang cold-pressed.
+Lundeby decided to use Bootstrap because the framework provides useful, pre-made components like navbars, breadcrumb-style navigation, and buttons. Instead of building components like the navbar from scratch, she was able to use Bootstrap components as a jumping off point instead.
+"I did not think I had time to build out the JavaScript and CSS for a bunch of UI components," she said.
 
-Oh. You need a little dummy text for your mockup? How quaint.
+Lundeby's second project with Jekyll and Bootstrap went much easier than the first. She made the first commit December 19, shortly after the urgency of building a site became apparent. Less than a month later this site was visible on the web, much the way it looks today.
 
-I bet you’re still using Bootstrap too…
+"I benefited from having built a Jekyll site before," she said. "There was a lot more swearing that time."
+
+Write The Docs Bay Area will still use Meetup.com as long as it's practical, but now members can also use this site to learn about upcoming events and to RSVP to them.
+
+Although we're still using Meetup.com to announce events, organizers were compelled to think about alternatives in light of the uncertainties surrounding WeWork, the parent company of Meetup.com. Write The Docs Bay Area has relied on Meetup.com since WTD began to meet in the Bay Area more than six years ago.
+
+Bay Area Supercoordinator Liz Harris said the necessity for a new site was apparent when organizers realized in the midst of a December planning session that they were depending on a company with an uncertain future for almost all contact with members. Meetup.com has been used to process RSVPs to events, to send email communications to members, and to follow up with messages like "Nice to see you."
+
+"We won't be able to replace all those features," Harris said, "but we won't be subject to the vicissitudes of WeWork."
+
+--CWC

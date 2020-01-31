@@ -1,5 +1,8 @@
 .footer-container {
     height: $footer-height;
+    @include media-breakpoint-down(md) {
+        min-height: $footer-height * 2.5;
+      }
     background-color: $dark;
     margin-top: 2rem;
 }
