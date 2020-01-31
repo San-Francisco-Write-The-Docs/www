@@ -4,13 +4,9 @@ sites:
     url: "https://github.com/San-Francisco-Write-The-Docs/"
     icon: "<i class='fab fa-github-square'></i>"
   - site: Twitter
-    label: "@WriteTheDocsSF"
-    url: "https://twitter.com/"
+    label: "@WTD_SFBayArea"
+    url: "https://twitter.com/WTD_SFBayArea"
     icon: "<i class='fab fa-twitter-square'></i>"
-  - site: LinkedIn
-    label: LinkedIn
-    url: "https://linkedin.com/"
-    icon: "<i class='fab fa-linkedin'></i>"
 
 email:
   - email: east-bay@writethedocs-sfbay.org
