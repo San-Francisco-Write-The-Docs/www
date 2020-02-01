@@ -15,7 +15,7 @@ jobs:
     name: Add help wanted label to unassigned issues
     runs-on: ubuntu-latest
     steps:
-      - uses: andymckay/labeler@1.0.0
+      - uses: andymckay/labeler@1.0.2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           add-labels: "help wanted"
