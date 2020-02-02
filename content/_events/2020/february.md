@@ -7,7 +7,7 @@ year: 2020
 event-date: Thursday, February 20, 2020
 locale: san-francisco
 
-location: google-spear-street
+location: linkedin
 sponsor: TBD
 rsvp_open: false
 description: |
