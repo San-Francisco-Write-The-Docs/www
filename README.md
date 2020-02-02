@@ -7,7 +7,7 @@ To contribute to the Bay Area Write The Docs website, it's helpful to familiariz
 ## Contributing
 Content for this site is generally written by organizers for Write The Docs Bay Area.
 
-For more about how to create the files for new events, venues, and announcements, see the file called `contributing.md`
+For more about how to create the files for new events, venues, and announcements, see the file called `contributing.md`.
 
 ## Generate the Site Locally
 
@@ -26,6 +26,14 @@ To install dependencies:
     ```bash
     bundle install
     ```
+### Build the site
+
+If you've never run the server before, you may not have a `_site` folder, which is where the server will look for the finished pages.
+
+That folder and the finished version of your site will be created when you build. You can set up the server to rebuild every time you save changes. Refer to the Jekyll docs for more about that.
+
+To build this site, use `bundle exec jekyll build`
+
 ### Serve the Site
 
 To serve the site, run `bundle exec jekyll serve` from your project directory, and then open "localhost:4000" in your preferred browser.
