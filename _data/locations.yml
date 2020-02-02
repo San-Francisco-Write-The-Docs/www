@@ -15,11 +15,10 @@
 
 flatiron:
 name: flatiron
-map: Flatiron School
 getting-here:
   - "TRANSIT: Take BART to Civic Center. Proceed three more blocks SW on Market, and take a left on 10th (at the Twitter building). Then take the first RIGHT on Mission.""
   - "BIKE: Bike parking is available outside the building."
-  - "CAR: "
+  - "CAR: Parking is limited. We recommend public transit."
   - "UPON ARRIVAL: WeWork is on the doors, and a Flatiron Rep will be there to greet you and check you in!"
 
 google-345-spear-street:

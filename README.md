@@ -14,7 +14,7 @@ For more about how to create the files for new events, venues, and announcements
 To preview the site locally, you must first clone this repository and install all dependencies. Then, you can serve the site locally with Jekyll.
 
 ### Install Dependencies
-serverserver
+
 To install dependencies:
 
 1.  Install Ruby (version 2.4.0 or higher). Jekyll's documentation has good [instructions](https://jekyllrb.com/docs/installation/) on how to do this for various operating systems.
@@ -30,7 +30,7 @@ To install dependencies:
 
 If haven't served this site since installing it, the repo may not have a `_site` directory. This directory is where the server will look for the finished pages, and it's normal for the `_site` directory to be missing right after you clone the repo.
 
-That folder and the finished version of your site will be created when you build.
+That directory and the finished version of your site will be created when you build.
 
 To build this site, use `bundle exec jekyll build`
 
