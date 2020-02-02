@@ -16,7 +16,7 @@ It's best to make the changes in the order listed above, because you need to  th
 The information you create in both steps will be reused in our announcement every time we meet at the venue.
 
 **To create a new embedded map:**
-1.) In the includes/locations directory, use the template called new_location.html to create a new HTML file in the same directory, with a name appropriate for the new venue.
+1.) In the `_includes/locations` directory, use the template called `new_location.html` to create a new HTML file in the same directory, with a name appropriate for the new venue.
 (You can look at other files in the directory for reference as you complete these steps.)
 2.) Using Google maps, search for the venue by name and address and choose the appropriate link from the results page (as you would normally do when using Google maps)
 3.) Click the hamburger menu at the top left, then choose "Share or embed map."
@@ -24,17 +24,19 @@ The information you create in both steps will be reused in our announcement ever
 5.) Paste the link in the new HTML file, replacing the comment in line two.
 
 **To create an entry in the `locations.yml` file**:
-1.) From the top level of the `www` repo, go to the `data/locations.yml` file and open it.
+1.) From the top level of the `www` repo, go to the `_data/locations.yml` file and open it.
 
 2.) Make sure the venue is not already included in this file. The venues are sorted in alphabetical order by the name of the host company (followed by address or city, if the company has multiple locations).
 
-3.) Create a heading for the new venue. At a minimum give it these attributes.
+3.) Create a heading for the new venue, using the same name you used for the embedded map file.
+
+At a minimum give it these attributes.
 
 Name: The name of the venue, in plain text.
 Map: A link to the Google map that willl take users to the right location.
 Getting here: Contains info about accessing the site, parking, etc.
 
-4.) Add information about the venue to the data/locations.yml file under "getting-here", and be sure to include the following information:
+4.) Add information about the venue to the `_data/locations.yml` file under "getting-here", and be sure to include the following information:
 
 Bike parking
 Access by public transit
