@@ -7,12 +7,12 @@ year: 2020
 event-date: Thursday, February 20, 2020
 locale: san-francisco
 
-location: linkedin
+location: google-spear-street
 sponsor: TBD
 rsvp_open: false
 description: |
   Come and present _your_ lightning talk, or join us as a member of the audience.  
-form: 
+form:
   id: feb-2020-signup
   title: RSVP to our Event
   embed: |
@@ -23,7 +23,7 @@ agenda: |
     * Discussion & Networking: 7:30-8:00
 ---
 
-## Write The Docs wants YOU to give a lightning talk! 
+## Write The Docs wants YOU to give a lightning talk!
 
 Lightning talks are short presentations no more than 5 minutes long. You can speak with or without slides -- it’s your choice. Here are some suggestions:
 
@@ -54,7 +54,7 @@ For some lightning talk examples see:
 
 *   [Write The Docs Portland 2016 - Day 1 Lightning Talks (Monday)](https://www.youtube.com/watch?v=LW0NJAbRjc8&index=24&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv)
 *   [Write The Docs Portland 2016 - Day 2 Lightning Talks (Tuesday)](https://www.youtube.com/watch?v=NFAonb8sII0&index=25&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv)
- 
+
 
 ## Sign up to present
 
@@ -88,4 +88,3 @@ If you plan to do a lightning talk, please let us know by filling out this form:
 ## Food & refreshments
 
 We'll have information about food and refreshments closer to the event.
-
