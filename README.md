@@ -26,16 +26,18 @@ To install dependencies:
     ```bash
     bundle install
     ```
+### Serve the Site
+
+To serve the site, run `bundle exec jekyll serve` from your project directory, and then open "localhost:4000" in your preferred browser. This creates the `_site` directory, which is where Jekyll stores the build output. 
+
 ### Build the site
 
 If haven't served this site since installing it, the repo may not have a `_site` directory. This directory is where the server will look for the finished pages, and it's normal for the `_site` directory to be missing right after you clone the repo.
 
-That directory and the finished version of your site will be created when you build.
+That directory and the finished version of your site will be created when you serve or build.
 
-To build this site, use `bundle exec jekyll build`
+To build this site without serving it locally, use `bundle exec jekyll build`
 
  You can configure Jekyll to rebuild every time you save changes so you don't have to rebuild -- Refer to the [Jekyll docs](https://jekyllrb.com/docs/) for more about that.
 
-### Serve the Site
 
-To serve the site, run `bundle exec jekyll serve` from your project directory, and then open "localhost:4000" in your preferred browser.
