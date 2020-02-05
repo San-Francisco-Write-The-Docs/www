@@ -27,15 +27,18 @@ title: "Write the Docs | SF Bay Area"
             &nbsp;
         </div>
         <div class="col">
+            {% if site.next_event %}
             {% assign next-event = site.events | where: "event-id", site.next_event | first %}
             <div class="card mb-3 mx-auto">
                 <div class="card-body">
                     <h2 class="card-title">Next Meetup: {{ next-event.title }} {{ site.data.locales[next-event.locale].badge }}</h2>
                     <p class="card-text">{{ next-event.description | markdownify }}</p>
+                    {% if next-event.upcoming %}
                     <a role="button" class="btn btn-primary" href="{{ next-event.url | prepend: site.baseurl }}">Join us!</a>
+                    {% endif %}
                 </div>
             </div>
-
+            {% endif %}
             <h2 class="display-4 pt-3">Updates from the team</h2>
             <hr>
             {% assign announcements = site.announcements | where: "layout","announcements/announcement" | sort: "announcement-date" | reverse %}

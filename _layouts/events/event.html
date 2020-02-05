@@ -30,7 +30,12 @@ layout: default
                 {% endcomment %}
 
                 {% if page.rsvp_open %}
+                {% if page.meetup-link %}
+                {% include events/meetup-rsvp.html %}
+                {% else %}
                 {% include forms/rsvp-modal.html %}
+                {% endif %}
+
                 {% endif %}
 
                 {% comment %}

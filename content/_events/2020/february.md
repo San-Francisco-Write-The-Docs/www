@@ -6,17 +6,12 @@ event-id: feb-2020-lightning-talks
 year: 2020
 event-date: Thursday, February 20, 2020
 locale: san-francisco
-
 location: linkedin
 sponsor: TBD
-rsvp_open: false
 description: |
   Come and present _your_ lightning talk, or join us as a member of the audience.  
-form:
-  id: feb-2020-signup
-  title: RSVP to our Event
-  embed: |
-   embed code for the form
+rsvp_open: true
+meetup-link: "https://www.meetup.com/Write-the-Docs-Bay-Area/events/268413973/"
 agenda: |
     * Networking & Announcements: 6:00-6:30
     * Presentation: 6:30-7:30
