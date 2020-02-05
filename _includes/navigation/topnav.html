@@ -29,6 +29,11 @@
         </li>
         {% endif %}
         {% endfor %}
+        <li class="nav-item">
+            <a href="{{ '/subscribe/' | prepend: site.baseurl}}" class=" nav-link btn btn-sm btn-outline-primary" tabindex="-1" role="button">
+                {{ site.icons.envelope }}<span style="padding-left: 4px">Join our mailing list!</span>
+            </a>
+        </li>
     </ul>
   </div>
 </nav>
