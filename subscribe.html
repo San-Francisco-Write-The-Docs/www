@@ -11,20 +11,20 @@ layout: default
                 <p><span class="text-danger">*</span> indicates a required field.</p>
                 <h3>Contact Info</h3>
                 <div class="form-group">
-                    <label for="mce-EMAIL">Email Address</label>
-                    <input id="mce-EMAIL" type="email" class="form-control">
+                    <label for="mce-EMAIL">Email Address <span class="text-danger font-weight-bold">*</span></label>
+                    <input id="mce-EMAIL" type="email" class="form-control" required>
                 </div>
                 <div class="form-group">
-                    <label for="mce-FNAME">First Name</label>
-                    <input type="text" class="form-control" id="mce-FNAME">
+                    <label for="mce-FNAME">First Name <span class="text-danger font-weight-bold">*</span></label>
+                    <input type="text" class="form-control" id="mce-FNAME" required>
                 </div>
                 <div class="form-group">
-                    <label for="mce-LNAME">Last Name</label>
-                    <input type="text" class="form-control" id="mce-LNAME">
+                    <label for="mce-LNAME">Last Name <span class="text-danger font-weight-bold">*</span></label>
+                    <input type="text" class="form-control" id="mce-LNAME" required>
                 </div>
                 <h3>Interests</h3>
                 <fieldset class="form-group">
-                        <label>Can we email you about WTD Bay Area meetups?</label>
+                        <label>Can we email you about WTD Bay Area meetups? <span class="text-danger font-weight-bold">*</span></label>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="MEETUPPERM" id="mce-MEETUPPERM-0" value="Yes">
                                 <label class="form-check-label" for="mce-MEETUPPERM-0">
@@ -39,7 +39,7 @@ layout: default
                             </div>
                 </fieldset>
                 <fieldset class="form-group">
-                        <label>Can we email you about other WTD Bay Area announcements?</label>
+                        <label>Can we email you about other WTD Bay Area announcements? <span class="text-danger font-weight-bold">*</span></label>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="MMERGE4" id="mce-MMERGE4-0" value="Yes">
                                 <label class="form-check-label" for="mce-MMERGE4-0">
@@ -78,7 +78,7 @@ layout: default
                 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
                     <div class="content__gdpr">
                         <h3>Marketing Permissions</h3>
-                        <p>Please select all the ways you would like to hear from Write The Docs - Bay Area:</p>
+                        <p>Please select all the ways you would like to hear from Write The Docs - Bay Area. <span class="text-danger font-weight-bold">*</span></p>
                         <fieldset class="mc_fieldset gdprRequired mc-field-group mb-2" name="interestgroup_field">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" name="gdpr[35439]" id="gdpr_35439" value="Y">
