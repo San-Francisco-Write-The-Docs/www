@@ -7,7 +7,7 @@ year: 2020
 event-date: Thursday, February 20, 2020
 locale: san-francisco
 location: linkedin
-sponsor: TBD
+sponsor: LinkedIn
 description: |
   Come and present _your_ lightning talk, or join us as a member of the audience.  
 rsvp_open: false
