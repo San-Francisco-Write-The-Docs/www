@@ -1,6 +1,7 @@
 ---
 published: false
 upcoming: true
+layout: events/event
 title: Event Name
 event-id: event-id (use month-year-brief-title, e.g. feb-2020-lightning-talks -- these must be UNIQUE)
 year: 2020 (Set this to the year of the event)
