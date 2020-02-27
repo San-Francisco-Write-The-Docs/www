@@ -21,7 +21,7 @@ agenda: |
     * If you have an agenda, put it here as bullet points. Otherwise - remove this variable entirely.
 ---
 
-## Use this heading for an event tagline
+## Use this heading for an event tagline -- THIS IS NOT THE SAME AS THE TITLE. DO NOT PUT THE TITLE ANYWHERE IN THE BODY (BELOW THE FRONT MATTER)
 
 Put in the event announcement information here
 
