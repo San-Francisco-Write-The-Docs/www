@@ -21,11 +21,7 @@ agenda: |
     * 7:30 p.m. to 8:15 p.m. Work in groups
     * 8:15 to 8:45 p.m. Socialize and pack up
     * 9 p.m. Lights out
-
-## Documentation templates for fun and profit
-
-
-# Documentation Templates for Fun and Profit
+---
 
 Erin McKean will speak about templates for documentation and her activities with The Good Docs Project, a group that aims to create templates for building or improving all sorts of documentation.
 
