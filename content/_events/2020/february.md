@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: Lightning Talks
 event-id: feb-2020-lightning-talks
 year: 2020
