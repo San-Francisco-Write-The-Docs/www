@@ -10,7 +10,7 @@ location: linkedin
 sponsor: TBD
 description: |
   Come and present _your_ lightning talk, or join us as a member of the audience.  
-rsvp_open: true
+rsvp_open: false
 meetup-link: "https://www.meetup.com/Write-the-Docs-Bay-Area/events/268413973/"
 agenda: |
     * Networking & Announcements: 6:00-6:30
