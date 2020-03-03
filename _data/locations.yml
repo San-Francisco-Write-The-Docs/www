@@ -47,3 +47,7 @@ san-lorenzo-library:
     - "BART: Take BART to the Bayfair station, then take the 97 bus to Hesperian and Paseo Grande."
     - "BIKE: Bike racks in front of the library."
     - "CAR: Free parking at the Library and the adjacent shopping center."
+
+youtube-san-bruno:
+  name: YouTube, San Bruno
+  map: "locations/youtube-san-bruno.html"
