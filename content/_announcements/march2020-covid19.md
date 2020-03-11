@@ -13,6 +13,6 @@ Bay Area organizers still plan to set up an event every month this year, except 
 
 Meanwhile, Write The Docs Portland [announced](https://www.writethedocs.org/conf/portland/2020/news/covid-19-update-02/) on March 10 that the flagship conference is postponed, probably until August. They plan to announce the new date by March 20.
 
-It also asks attendees to monitor announcements from the [Centers for Disease Control](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and the [Oregon Health Authority](https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx).
+They also ask attendees to monitor announcements from the [Centers for Disease Control](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and the [Oregon Health Authority](https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx) as the event approaches.
 
 --CWC
