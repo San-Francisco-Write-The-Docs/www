@@ -56,3 +56,11 @@ getting-here:
 
 
 ## Contributing announcements
+
+To contribute an announcement: 
+* Use the template found at `content/_announcements/_template.md`.
+* Remember to removed the `published:false` flag when ready to publish.
+* Remember to set the `toc:false` flag.
+* Save the announcement in `content/_announcements`. That's all you have to do for announcements to appear on the site.
+
+
