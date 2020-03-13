@@ -4,7 +4,7 @@ layout: events/event
 title: Camtasia Closeup
 event-id: camtasia-closeup-march-2020
 year: 2020 
-event-date: Thursday, March 18, 2020
+event-date: March TBD
 locale: south-bay
 location: youtube-san-bruno
 sponsor: YouTube & Camtasia
@@ -15,5 +15,7 @@ description: |
 agenda: |
     * _Meetup_ 7:00 p.m. - 9:00 p.m.
 ---
+
+We will be rescheduling this event to occur virtually and hope you will join us for this TBD date and time. Please expect additional updates soon.
 
 We'll have a speaker on hand from TechSmith, the makers of Camtasia. Want to learn more about this toolkit for recording video tutorials? Stand by for more details.
