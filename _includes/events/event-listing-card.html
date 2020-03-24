@@ -6,7 +6,7 @@
             </div>
             <div class="col-12 col-md-5">
                 {% unless page.year %}
-                <p class="text-muted">{{ event.event-date | date: "%B %d" }}, {{ event.year }} @ {{ site.data.locations[event.location].name }}</p>
+                <p class="text-muted">{{ event.event-date | date: "%B %d" }}, {{ event.year }} {% if event.location %}@ {{ site.data.locations[event.location].name }}{% endif %}</p>
                 {% endunless %}
                 {% if page.year %}
                 <p class="text-muted">{{ event.event-date | date: "%B %d" }} @ {{ site.data.locations[event.location].name }}</p>
