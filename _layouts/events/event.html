@@ -66,6 +66,7 @@ layout: default
                 Make sure that your event location exists in _data/locations.yml
                 {% endcomment %}
 
+                {% unless page.remote %}
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="card-body">
                         <h5 class="card-title">{{ site.icons.map }}  {{ location.name }}</h5>
@@ -78,6 +79,22 @@ layout: default
                             {% include locations/{{ page.location }}.html %}
                     </div>
                 </div>
+                {% endunless %}
+
+                {% comment %}
+                FOR REMOTE EVENTS, this card shows the Zoom information and how to access.
+                {% endcomment %}
+
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-laptop-house"></i>  Join the meetup online!</h5>
+                        <p class="card-text">We're using <a href="https://zoom.us/">Zoom</a> (a web conferencing tool) to facilitate this meetup.</p>
+                        <p class="card-text">Our meeting ID is <strong>{{ page.zoom.id }}</strong>.</p>
+                        <a href="{{ page.zoom.url }}" role="button" class="btn btn-primary mb-2">Join the Zoom!</a>
+                        <p class="card-text">To join over the phone, call {{ page.zoom.dial-in }}.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
