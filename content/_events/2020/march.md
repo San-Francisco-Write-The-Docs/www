@@ -1,5 +1,4 @@
 ---
-upcoming: true
 layout: events/event
 title: Camtasia Closeup
 event-id: camtasia-closeup-march-2020
@@ -12,8 +11,6 @@ zoom:
  id: 434 835 038
  dial-in: "+1 408 638 0968 US (San Jose) or +1 669 900 6833 US (San Jose)"
 sponsor: Camtasia
-rsvp_open: true
-meetup-link: "https://www.meetup.com/Write-the-Docs-Bay-Area/events/269113283/"
 description: |
   We'll have a speaker on hand from TechSmith, the makers of Camtasia. Join us to learn more about this toolkit for recording video tutorials!
 agenda: |
