@@ -6,8 +6,12 @@ event-id: april-2020-documentation-templates
 year: 2020
 event-date: Thursday, April 23, 2020
 locale: san-francisco
-sponsor: Google
-location: google-345-spear-street
+remote: true
+zoom: 
+ tbd: true
+# url: meeting_url
+# id: meeting_id
+# dial-in: dial_in_num
 rsvp_open: true
 meetup-link: "https://www.meetup.com/Write-the-Docs-Bay-Area/events/268792742/"
 description: |
