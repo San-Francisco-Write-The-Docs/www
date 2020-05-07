@@ -1,5 +1,5 @@
 ---
-upcoming: true
+upcoming: false
 layout: events/event
 title: Documentation templates for fun and profit
 event-id: april-2020-documentation-templates
@@ -7,7 +7,7 @@ year: 2020
 event-date: Thursday, April 23, 2020
 locale: san-francisco
 remote: true
-zoom: 
+zoom:
  tbd: true
 # url: meeting_url
 # id: meeting_id
@@ -17,11 +17,11 @@ meetup-link: "https://www.meetup.com/Write-the-Docs-Bay-Area/events/268792742/"
 description: |
     Find out how templates make better documentation.
 agenda: |
-    *   _Socialize & network_ - 6:30 p.m. 
-    *   _Presentation, followed by questions_ - 7 p.m. 
+    *   _Socialize & network_ - 6:30 p.m.
+    *   _Presentation, followed by questions_ - 7 p.m.
     *   _Work in groups_ - 7:30 p.m. to 8:15 p.m.
-    *   _Socialize & pack up_ - 8:15 to 8:45 p.m. 
-    *   _Lights out_ - 9 p.m. 
+    *   _Socialize & pack up_ - 8:15 to 8:45 p.m.
+    *   _Lights out_ - 9 p.m.
 ---
 
 Erin McKean will speak about templates for documentation and her activities with [The Good Docs Project](https://thegooddocsproject.dev/), a group that aims to create templates for building or improving all sorts of documentation.
