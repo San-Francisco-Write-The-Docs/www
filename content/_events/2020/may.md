@@ -37,7 +37,9 @@ How do we overcome motivated reasoning and cultural resistance? How might we cul
 In this talk, we'll use the lenses of information, action, experience, and environment to explore how their ways of change might inform ours. And we'll consider why, in an era of acceleration, it makes sense to slow down. Moving fast breaks things. It sows the seeds of fear, anxiety, grief, and trauma. Now is the time for gentle change. It's slow, difficult, unorthodox, and more transformational than we realize. As Pema Chodron whispers "patience is a revolutionary act."
 
  OUR SPEAKER:
- Peter Morville, author and President of Semantic Studios
+ <em>Peter Morville, author and President of Semantic Studios<em>
 
 
- Peter is a pioneer of the fields of information architecture and user experience. His bestselling books include _Information Architecture_ (the "polar bear book"), _Intertwingled_, _Search Patterns_, and _Ambient Findability_. He has been helping people to plan since 1994, and advises such clients as AT&T, Cisco, Harvard, IBM, the Library of Congress, Macy's, the National Cancer Institute, Quicken Loans, and Vodafone. His work has been covered by Business Week, NPR, The Economist, The Washington Post, and The Wall Street Journal. His latest book is _Planning for Everything: The Design of Paths and Goals_.
+Peter is a pioneer of the fields of information architecture and user experience. His bestselling books include Information Architecture (the "polar bear book"), Intertwingled, Search Patterns, and Ambient Findability. He has been helping people to plan since 1994, and advises such clients as AT&T, Cisco, Harvard, IBM, the Library of Congress, Macy's, the National Cancer Institute, Quicken Loans, and Vodafone. His work has been covered by Business Week, NPR, The Economist, The Washington Post, and The Wall Street Journal. His latest book is Planning for Everything: The Design of Paths and Goals.
+
+<img src="/images/images-4-posts/morville.png" alt="Peter Morville" style="max-width: 200px">
