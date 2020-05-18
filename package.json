@@ -5,7 +5,9 @@
   "repository": "https://github.com/San-Francisco-Write-The-Docs/www",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp && bundle exec jekyll build",
+    "serve": "gulp && bundle exec jekyll serve"
   },
   "author": "Claire Lundeby, Clarence Cromwell",
   "license": "ISC",
@@ -16,6 +18,7 @@
     "gulp-cli": "^2.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.2",
+    "kind-of": ">=6.0.3",
     "readable-stream": "^3.4.0"
   }
 }
