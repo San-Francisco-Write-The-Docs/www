@@ -2,11 +2,15 @@ sites:
   - site: GitHub
     label: San Francisco Write the Docs
     url: "https://github.com/San-Francisco-Write-The-Docs/"
-    icon: "<i class='fab fa-github-square'></i>"
+    icon: '<i class="fab fa-github-square"></i>'
   - site: Twitter
     label: "@WTD_SFBayArea"
     url: "https://twitter.com/WTD_SFBayArea"
-    icon: "<i class='fab fa-twitter-square'></i>"
+    icon: '<i class="fab fa-twitter-square"></i>'
+  - site: YouTube
+    label: WTD San Francisco
+    url: "https://www.youtube.com/channel/UCAf1Yf22POwZaBWFIGVHNpA/feed"
+    icon: '<i class="fab fa-youtube-square"></i>'
 
 email:
   - email: east-bay@writethedocs-sfbay.org
