@@ -34,6 +34,7 @@ Our top priority while writing documentation is helping our users—as it should
 OUR SPEAKER:
 Margaret Fero
 
+Margaret is passionate about information security, technical writing, and interdisciplinary connections. She holds a GSEC security certification, and has written UX copy, compliance documentation, and user-facing documentation for a variety of industries. She has spoken at conferences including the O’Reilly Open Source Convention (OSCON), ToorCon, Abstractions II, and Write The Docs Day: Australia.
 
 -TRANSIT:
 Stand up from your desk. Turn around three times, and say "There's no place like home."
