@@ -1,0 +1,35 @@
+---
+published: true
+upcoming: true
+layout: events/event
+title: "Q&A with Tom Manshreck about the O'Reilly Book 'Software Engineering at Google'"
+event-id: "july-2020-tom-manshreck"
+year: 2020
+event-date: Tuesday, July 21, 2020
+locale: san-francisco
+rsvp_open: false
+rsvp_open: true
+description: |
+Join us for a Q&A session with Tom Manshreck, a staff technical writer for Google and a key contributor to the book "Software Engineering at Google."  
+agenda: |
+    * 6:00 p.m. GreetingsSocialize and network
+    * 6:15 p.m. Announcements/Introductions
+    * 6:30 p.m. Presentation, followed by questions and answers
+    * 7:30 p.m. Closing announcements/job postings/
+    * 7:35 Informal conversation
+    * 8 p.m. Lights out---
+
+## Use this heading for an event tagline -- THIS IS NOT THE SAME AS THE TITLE. DO NOT PUT THE TITLE ANYWHERE IN THE BODY (BELOW THE FRONT MATTER)
+
+Put in the event announcement information here
+
+OUR SPEAKER: Tom Manshreck is a staff technical writer for Google and a key contributor to the book "Software Engineering at Google
+
+-TRANSIT:
+Stand up from your desk. Turn around three times, and say "There's no place like home."
+Then click on the Zoom link, which will be provided by email before the meeting (If you RSVP).
+
+CODE OF CONDUCT: We're an inclusive, caring group. Please take a moment to read the Write The Docs Code of Conduct, http://www.writethedocs.org/code-of-conduct/
+
+We're on Twitter
+https://twitter.com/WTD_SFBayArea
