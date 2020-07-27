@@ -2,10 +2,7 @@
 published: true
 upcoming: true
 layout: events/event
-
-
 title: "Q&A with Tom Manshreck about the O'Reilly Book 'Software Engineering at Google'"
-
 event-id: july-2020-tom-manshreck
 year: 2020
 event-date: Tuesday, July 28, 2020
@@ -28,9 +25,7 @@ agenda: |
     * 8 p.m. Lights out
 
 ---
-
 ## Join the Conversation
-
 Here are some of the things we'll talk about:
 
 * How the project came about and how Tom Manshreck became involved.
@@ -39,7 +34,6 @@ Here are some of the things we'll talk about:
 * It's not easy to assemble a book with numerous contributors. Could you talk about any challenges and how you made it work?
 * Were there any lessons for you about helping engineers to write for a general audience?
 * Are there any lessons that you would pass on to engineers who want to write?
-
 OUR SPEAKER: Tom Manshreck is a staff technical writer for Google and a key contributor to the book "Software Engineering at Google
 
 -TRANSIT:
