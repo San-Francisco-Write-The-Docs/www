@@ -25,7 +25,9 @@ agenda: |
     * 8 p.m. Lights out
 
 ---
+
 ## Join the Conversation
+
 Here are some of the things we'll talk about:
 
 * How the project came about and how Tom Manshreck became involved.
