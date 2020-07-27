@@ -12,7 +12,6 @@ zoom:
  tbd: true
  # url: meeting_url
 # id: meeting_id
-# dial-in: dial_in_num
 rsvp_open: true
 meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/271705951/
 description: |
@@ -26,7 +25,9 @@ agenda: |
     * 8 p.m. Lights out
 
 ---
+
 ## Join the Conversation
+
 Here are some of the things we'll talk about:
 
 * How the project came about and how Tom Manshreck became involved.
