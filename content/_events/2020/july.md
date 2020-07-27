@@ -3,14 +3,20 @@ published: true
 upcoming: true
 layout: events/event
 title: "Q&A with Tom Manshreck about the O'Reilly Book 'Software Engineering at Google'"
-event-id: "july-2020-tom-manshreck"
+event-id: july-2020-tom-manshreck
 year: 2020
 event-date: Tuesday, July 28, 2020
 locale: san-francisco
-rsvp_open: false
+remote: true
+zoom:
+ tbd: true
+ # url: meeting_url
+# id: meeting_id
+# dial-in: dial_in_num
 rsvp_open: true
+meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/271705951/
 description: |
-Join us for a Q&A session with Tom Manshreck, a staff technical writer for Google and a key contributor to the book "Software Engineering at Google."  
+    "Join us for a Q&A session with Tom Manshreck, a staff technical writer for Google and a key contributor to the book "Software Engineering at Google."  
 agenda: |
     * 6:00 p.m. GreetingsSocialize and network
     * 6:15 p.m. Announcements/Introductions
@@ -21,7 +27,7 @@ agenda: |
 
 ---
 
-## Use this heading for an event tagline -- THIS IS NOT THE SAME AS THE TITLE. DO NOT PUT THE TITLE ANYWHERE IN THE BODY (BELOW THE FRONT MATTER)
+## Join the Conversation
 
 Here are some of the things we'll talk about:
 * How the project came about and how Tom Manshreck became involved.
