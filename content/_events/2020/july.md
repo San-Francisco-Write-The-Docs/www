@@ -5,7 +5,7 @@ layout: events/event
 title: "Q&A with Tom Manshreck about the O'Reilly Book 'Software Engineering at Google'"
 event-id: "july-2020-tom-manshreck"
 year: 2020
-event-date: Tuesday, July 21, 2020
+event-date: Tuesday, July 28, 2020
 locale: san-francisco
 rsvp_open: false
 rsvp_open: true
@@ -17,11 +17,20 @@ agenda: |
     * 6:30 p.m. Presentation, followed by questions and answers
     * 7:30 p.m. Closing announcements/job postings/
     * 7:35 Informal conversation
-    * 8 p.m. Lights out---
+    * 8 p.m. Lights out
+
+---
 
 ## Use this heading for an event tagline -- THIS IS NOT THE SAME AS THE TITLE. DO NOT PUT THE TITLE ANYWHERE IN THE BODY (BELOW THE FRONT MATTER)
 
-Put in the event announcement information here
+Here are some of the things we'll talk about:
+* How the project came about and how Tom Manshreck became involved.
+* What is the role of a curator? (It looks a lot like a kind of book editor.)
+* What is the process of assembling a book for O'Reilly, and how did it come out differently than you expected?
+* It's not easy to assemble a book with numerous contributors. Could you talk about any challenges and how you made it work?
+* Were there any lessons for you about helping engineers to write for a general audience?
+* Are there any lessons that you would pass on to engineers who want to write?
+
 
 OUR SPEAKER: Tom Manshreck is a staff technical writer for Google and a key contributor to the book "Software Engineering at Google
 
