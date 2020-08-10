@@ -6,8 +6,15 @@ title: Overview of Postman for API documentation
 event-id: aug-2020-postman
 year: 2020
 event-date: Tuesday, 26 August, 2020
-
-rsvp_open: true (Set this to true to show the RSVP button)
+locale: east-bay
+remote: true
+zoom:
+ tbd: true
+# url: meeting_url
+# id: meeting_id
+# dial-in: dial_in_num
+rsvp_open: true
+meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/272328816/
 description: |
   Learn how Postman is useful for documentation.
 
