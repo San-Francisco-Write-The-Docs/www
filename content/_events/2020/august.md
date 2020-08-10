@@ -6,6 +6,7 @@ title: Overview of Postman for API documentation
 event-id: aug-2020-postman
 year: 2020
 event-date: Tuesday, 26 August, 2020
+
 locale: east-bay
 remote: true
 zoom:
@@ -25,6 +26,7 @@ agenda: |
   * 7:00 p.m. Closing announcements/job postings/
   * 7:05 Informal conversation
   * 7:30 p.m. Lights out
+
 ---
 
 ## Postman for documentation
