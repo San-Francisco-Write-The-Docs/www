@@ -12,11 +12,10 @@ zoom:
  tbd: true
  # url: meeting_url
 # id: meeting_id
-# dial-in: dial_in_num
 rsvp_open: true
 meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/271705951/
 description: |
-    "Join us for a Q&A session with Tom Manshreck, a staff technical writer for Google and a key contributor to the book "Software Engineering at Google."  
+    "Join us for a Q&A session with Tom Manshreck, a staff technical writer for Google and a key contributor to the book "Software Engineering at Google."
 agenda: |
     * 6:00 p.m. GreetingsSocialize and network
     * 6:15 p.m. Announcements/Introductions
@@ -30,14 +29,13 @@ agenda: |
 ## Join the Conversation
 
 Here are some of the things we'll talk about:
+
 * How the project came about and how Tom Manshreck became involved.
 * What is the role of a curator? (It looks a lot like a kind of book editor.)
 * What is the process of assembling a book for O'Reilly, and how did it come out differently than you expected?
 * It's not easy to assemble a book with numerous contributors. Could you talk about any challenges and how you made it work?
 * Were there any lessons for you about helping engineers to write for a general audience?
 * Are there any lessons that you would pass on to engineers who want to write?
-
-
 OUR SPEAKER: Tom Manshreck is a staff technical writer for Google and a key contributor to the book "Software Engineering at Google
 
 -TRANSIT:
