@@ -9,15 +9,15 @@ event-date: Tuesday, 26 August, 2020
 
 rsvp_open: true (Set this to true to show the RSVP button)
 description: |
-Learn how Postman is useful for documentation.
+  Learn how Postman is useful for documentation.
 
 agenda: |
-6:00 p.m. GreetingsSocialize and network
-6:15 p.m. Announcements/Introductions
-6:30 p.m. Presentation, followed by questions and answers
-7:30 p.m. Closing announcements/job postings/
-7:35 Informal conversation
-8 p.m. Lights out
+  6:00 p.m. GreetingsSocialize and network
+  6:15 p.m. Announcements/Introductions
+  6:30 p.m. Presentation, followed by questions and answers
+  7:30 p.m. Closing announcements/job postings/
+  7:35 Informal conversation
+  8 p.m. Lights out
 ---
 
 ## Postman for documentation
