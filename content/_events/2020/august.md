@@ -19,12 +19,12 @@ description: |
   Learn how Postman is useful for documentation.
 
 agenda: |
-  * 6:00 p.m. GreetingsSocialize and network
-  * 6:15 p.m. Announcements/Introductions
-  * 6:30 p.m. Presentation, followed by questions and answers
-  * 7:30 p.m. Closing announcements/job postings/
-  * 7:35 Informal conversation
-  * 8 p.m. Lights out
+  * 5:30 p.m. Greetings. Socialize and network
+  * 5:45 p.m. Announcements/Introductions
+  * 6:00 p.m. Presentation, followed by questions and answers
+  * 7:00 p.m. Closing announcements/job postings/
+  * 7:05 Informal conversation
+  * 7:30 p.m. Lights out
 ---
 
 ## Postman for documentation
