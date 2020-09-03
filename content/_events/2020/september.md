@@ -14,13 +14,15 @@ zoom:
 # id: meeting_id
 # dial-in: dial_in_num
 rsvp_open: true
+meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/272998918/
 description: |
  In this class, you will learn how to find and contribute to open source projects using the GitHub website UI.
 agenda: |
-    6:00 p.m. Announcements and introductions
-    6:15 p.m. Presentation, followed by questions and answers
-    7:45 p.m. Closing announcements/job postings
-    8 p.m. Lights out
+
+  *  6:00 p.m. Announcements and introductions
+  *  6:15 p.m. Presentation, followed by questions and answers
+  *  7:45 p.m. Closing announcements/job postings
+  *  8 p.m. Lights out
 ---
 
 ## Learn How to Use GitHub for Open Source Projects
@@ -31,20 +33,25 @@ Github is a very common version control interface used to collaborate on code, d
 
 The workshop will be a mix of slides and guided exercises. This is a great workshop for tech writers, designers, or anyone who’d like to get familiar with Github and dip their toe in open source.
 
-Topics covered:
-• What's the difference between Git and Github?
-• Users, organizations, and repositories
-• Issues and labels
-• Adding and editing a file using the Github UI
-• Making a change to multiple files at a time
-• Creating and merging a Pull Request
+TOPICS COVERED:
 
-About the Teacher:
+* What's the difference between Git and Github?
+* Users, organizations, and repositories
+* Issues and labels
+* Adding and editing a file using the Github UI
+* Making a change to multiple files at a time
+* Creating and merging a Pull Request
+
+ABOUT THE TEACHER:
+
 Jessica Parsons has spent a multi-decade career in a variety of positions involving teaching, technology, or some combination of the two. For the past few years, she has applied these skills at Netlify, first as a documentation engineer and now as a product manager.
 
-She has a passion for explaining complex concepts in a way that makes learners feel comfortable and confident. She has taught workshops both locally and internationally on topics ranging from static site generators to stock options. In the Write the Docs world, you can find her on the podcast (Episode 19), in recorded conference talks (Australia 2018, Portland 2019), and in Slack, under the username, `verythorough.’
+She has a passion for explaining complex concepts in a way that makes learners feel comfortable and confident. She has taught workshops both locally and internationally on topics ranging from static site generators to stock options. In the Write the Docs world, you can find her on the podcast (Episode 19), in recorded conference talks (Australia 2018, Portland 2019), and in Slack, under the username, "verythorough".
 
-CODE OF CONDUCT: We're an inclusive, caring group. Please take a moment to read the Write The Docs Code of Conduct, http://www.writethedocs.org/code-of-conduct/
+CODE OF CONDUCT:
 
-We're on Twitter
+ We're an inclusive, caring group. Please take a moment to read the Write The Docs Code of Conduct, http://www.writethedocs.org/code-of-conduct/
+
+WE'RE ON TWITTER:
+
 https://twitter.com/WTD_SFBayArea
