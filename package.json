@@ -19,6 +19,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.2",
     "kind-of": ">=6.0.3",
-    "readable-stream": "^3.4.0"
+    "readable-stream": "^3.4.0",
+    "yargs-parser": ">=13.1.2"
   }
 }
