@@ -15,7 +15,7 @@ zoom:
 rsvp_open: true
 meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/273765660/
 description: |
-Find out about one project that improved internal documentation and then transitioned the restricted materials into publicly available documentation.
+ Find out about one project that improved internal documentation and then transitioned the restricted materials into publicly available documentation.
 
 agenda: |
     * 6:00 p.m. Greetings, socializing, and networking
@@ -26,7 +26,7 @@ agenda: |
     * 8 p.m. Lights out
 ---
 
-##
+## Find Out How You Can Do the Same
 
 Clay Murphy noticed some time ago that there was potential for improvement in some of Android's internal documentation. He made a pitch to work on those resources full time and it was accepted. Then before the work was done, he realized that the documentation would be even more useful if it were available outside of Google -- so he pitched that too.  At our October 22 meetup, Clay will talk about both parts of the journey, improving the documentation and preparing it to transition from internal documentation to publicly available external documentation.
 
