@@ -4,12 +4,12 @@ title: "Coronavirus Update: Bay Area Events Move Online, Portland Conference is 
 author: clarence
 announcement-date: March 10, 2020
 toc: false
-tags: 
+tags:
  - news
  - east-bay
  - south-bay
  - san-francisco
-published: true
+published: false
 ---
 The spread of Coronavirus is forcing organizers for Write The Docs to change plans in the Bay Area and in Portland, for the safety of WTD members.
 
