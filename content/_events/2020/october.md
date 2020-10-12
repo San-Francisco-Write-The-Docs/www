@@ -34,6 +34,7 @@ OUR SPEAKER:
 Clay Murphy is a trained journalist and former newspaper reporter who has worked the past 22 years as a technical writer or technical writing manager at companies such as Excite@Home, Red Hat, and Google.
 For the last seven years, Clay has been a part of the Android team, first managing the Android Open Source Project website (source.android.com) and then handling all partner-restricted materials with a team of excellent writers.
 Two years ago, Clay left management to focus upon internal documentation as a writer full time.
+
 Since then, he has helped take the following previously restricted materials public:
 
 * [https://source.android.com/setup/start](https://source.android.com/setup/start)
