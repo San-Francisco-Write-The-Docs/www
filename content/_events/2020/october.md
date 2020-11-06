@@ -11,13 +11,10 @@ remote: true
 zoom:
  tbd: true
 # url: meeting_url
-remote: true
-zoom:
- tbd: true
-# url: meeting_url
 # id: meeting_id
+# dial-in: dial_in_num
 rsvp_open: true
-meetup-
+meetup:
 # id: meeting_id
 rsvp_open: true
 meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/273765660/
