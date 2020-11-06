@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "Q&A with Tom Manshreck about the O'Reilly Book 'Software Engineering at Google'"
 event-id: july-2020-tom-manshreck

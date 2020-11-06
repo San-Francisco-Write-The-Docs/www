@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "What not to document and why"
 event-id: june-2020-what-not-to-document

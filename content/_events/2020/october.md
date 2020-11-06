@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "Android Documentation: The Journey from Restricted to Public"
 event-id: oct-2020-go-public
