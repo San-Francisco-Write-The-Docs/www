@@ -2,7 +2,7 @@
 published: false
 upcoming: true
 layout: events/event
-title: Organizers meeting
+title: Organizers meeting 2020
 event-id: event-id (use month-year-brief-title, e.g. feb-2020-lightning-talks -- these must be UNIQUE)
 year: 2020 (Set this to the year of the event)
 event-date: Thursday, February 20, 2020 (Use the date format, Weekday, Month Day, Year)
