@@ -2,7 +2,7 @@
 published: true
 upcoming: true
 layout: events/event
-title: Let's Talk About Best Practices
+title: "Let's Talk About Best Practices"
 event-id: nov-best-practices
 year: 2020
 event-date: Thursday, November 12, 2020
@@ -22,15 +22,13 @@ agenda: |
     * 6:15 p.m. Announcements and introductions
     * 6:30 p.m. Round table discussion
     * 7:30 p.m. Closing announcements and job postings
-    * 7:35 Informal conversation
+    * 7:35 p.m. Informal conversation
     * 8 p.m. Lights out
 ---
 
-## Crowd source your questions
+## Crowdsource your questions
 
 Let's talk about the best strategies to handle the challenges many or all of us face. It could be finding gigs or hiring people, learning new tools, or getting information from teammates. It could be something more complex, like choosing a CMS.
 Bring your questions and your know-how. We'll start by collecting at least one question from each attendee. Then we'll sort them and work our way through the list.
-
-We're an inclusive, caring group. Please take a moment to read the Write the Docs Code of Conduct, http://www.writethedocs.org/code-of-conduct/.
 
 RSVP no later than Nov. 11th (the day before the event), and we will send you a Zoom link by email. Make sure you have enabled notifications from meetup.com.
