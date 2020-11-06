@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: Overview of Postman for API documentation
 event-id: aug-2020-postman

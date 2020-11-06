@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "Android Documentation: The Journey from Restricted to Public"
 event-id: oct-2020-go-public
@@ -12,6 +12,7 @@ zoom:
  tbd: true
 # url: meeting_url
 # id: meeting_id
+# dial-in: dial_in_num
 rsvp_open: true
 meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/273765660/
 description: |

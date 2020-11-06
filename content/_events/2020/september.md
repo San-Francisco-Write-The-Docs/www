@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "Intro to GitHub: No Terminal Required"
 event-id: sept-2020-github

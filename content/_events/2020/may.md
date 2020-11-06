@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "Gentle Change: A talk with Peter Morville"
 event-id: may-2020-gentle-change
