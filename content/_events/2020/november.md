@@ -1,6 +1,6 @@
 ---
 published: true
-upcoming: true
+upcoming: false
 layout: events/event
 title: "Let's Talk About Best Practices"
 event-id: nov-best-practices
