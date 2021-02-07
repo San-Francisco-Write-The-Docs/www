@@ -16,7 +16,7 @@ zoom:
 # url: meeting_url
 # id: meeting_id
 # dial-in: dial_in_num
-meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/274352408/
+meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/276221117/
 agenda: |
     * Networking & Announcements: 6:00-6:30
     * Presentation: 6:30-7:30
