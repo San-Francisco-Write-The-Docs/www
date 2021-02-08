@@ -4,8 +4,8 @@ upcoming: true
 title: Lightning Talks
 published: true
 event-id: feb-2021-lightning-talks
-year: 2020
-event-date: Thursday, February 23, 2021
+year: 2021
+event-date: Tuesday, February 23, 2021
 locale: san-francisco
 description: |
   Come and present _your_ lightning talk, or join us as a member of the audience.
