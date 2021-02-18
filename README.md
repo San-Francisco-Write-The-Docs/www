@@ -38,4 +38,5 @@ To build this site, use `bundle exec jekyll build`
 
 ### Serve the Site
 
-To serve the site, run `bundle exec jekyll serve` from your project directory, and then open "localhost:4000" in your preferred browser.
+To serve the site, run `bundle exec jekyll serve` from the project directory, and then open "localhost:4000" in your preferred browser.
+
