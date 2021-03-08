@@ -4,7 +4,7 @@ upcoming: true
 title: "The Product is Docs -- A Look Inside"
 published: true
 event-id: march-2021-product-is-docs
-year: 2020
+year: 2021
 event-date: Thursday, March 18, 2021
 locale: san-francisco
 description: |
