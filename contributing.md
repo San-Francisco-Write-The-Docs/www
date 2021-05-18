@@ -14,7 +14,11 @@ Before you begin:
 The general workflow goes like this:
 
 1. Working in the WWW repo on your local machine, create a new branch in Git for your work. (Naming convention <last_name>-<month_of_event>)
-1. Create the new event posting using the steps in the following section.
+1. Create the new event posting using the following steps:
+      1. Start with a blank template. Use the file stored here: `content/events/_template.md`. Don't delete anything in the template when you copy it.
+      1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important because Jekyll builds the site programmatically -- if naming conventions are ignored, the build might fail.
+      1.  Paste the text of the announcement at the very bottom of the new file you created.
+      1. Update the fields in the YAML header at the top of the document. The template contains comments that explain the purpose of each field.
 1. Go to the root directory of the repo and open the _config.yml file. Around line 29 or so, find the `next_event` attribute. You need to change the value of `next_event` to make it the same as the `event_id` in your upcoming event (found on line 9 or so in the event template). Without this change, the event will not appear on the site. Config file example: `next_event: "may-2021-analytics"`.
 1. Build the Jekyll site and then start a server so you can view it locally. (Never merge changes without building locally. So many small things can make the build fail.) Instructions are in the README.md file.
 1. Review the new or changed parts of the site to make sure they rendered as expected and nothing is broken.
@@ -26,10 +30,7 @@ The general workflow goes like this:
 
 Here's how to create the event posting:
 
-1. Start with a blank template. Use the file stored here: `content/events/_template.md`. Don't delete anything in the template when you copy it.
-1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important because Jekyll builds the site programmatically -- if naming conventions are ignored, the build might fail.
-1.  Paste the text of the announcement at the very bottom of the new file you created.
-1. Update the fields in the YAML header at the top of the document. The template contains comments that explain the purpose of each field.
+
 
 
 
