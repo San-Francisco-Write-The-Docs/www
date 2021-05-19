@@ -14,25 +14,20 @@ Before you begin:
 The general workflow goes like this:
 
 1. Working in the WWW repo on your local machine, create a new branch in Git for your work. (Naming convention <last_name>-<month_of_event>)
-1. Create the new event posting using the steps in the following section.
-1. Go to the root directory of the repo and open the _config.yml file. Around line 29 or so, find the `next_event` attribute. You need to change the value of `next_event` to make it the same as the `event_id` in your upcoming event (found on line 9 or so in the event template). Without this change, the event will not appear on the site. Config file example: `next_event: "may-2021-analytics"`.
+1. Create the new event posting using the following steps:
+      1. Start with a blank template. Use the file stored here: `content/events/_template.md`. Don't delete anything in the template when you copy it.
+      1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important if naming conventions are ignored, the build might fail.
+      1.  Paste the body of the event post at the very bottom of the new file you created.
+      1. Enter a subheading on the line that begins with two hashmarks ("##"). The hashmarks indicate an h2 heading in Markdown.
+      1. Update the fields in the YAML header at the top of the document. The template contains comments that explain the purpose of each field. (You can also compare to another recent event for hints about which values to use.)
+      1. Go to the root directory of the repo and open the _config.yml file. Around line 29 or so, find the `next_event` attribute. You need to change the value of `next_event` to make it the same as the `event_id` in your upcoming event (found on line 9 or so in the event template). Without this change, the event will not appear on the site. Config file example: `next_event: "may-2021-analytics"`.
+      1. Open the most recent event before the one you're creating, and change the value of `upcoming` to `false`.
 1. Build the Jekyll site and then start a server so you can view it locally. (Never merge changes without building locally. So many small things can make the build fail.) Instructions are in the README.md file.
 1. Review the new or changed parts of the site to make sure they rendered as expected and nothing is broken.
-1. Fix the site if necessary. If you made changes repeat the previous step.
+1. Fix the site if necessary. If you made changes repeat the previous two steps. (Remember that if you make changes you have to stop the server, build the site again, and restart the server.)
 1. When everything is working, commit your changes in Git and then push the new branch to the remote (e.g. `git push -u origin <local_branch_name>`)
 1. Go to the WTD-WWW repo on GitHub and create a pull request for your branch. **[The instructions are here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request)**
 1. If you have admin privileges, merge the PR. If not, ask someone to merge the PR and grant you the admin privileges.  
-
-
-Here's how to create the event posting:
-
-1. Start with a blank template. Use the file stored here: `content/events/_template.md`. Don't delete anything in the template when you copy it.
-1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important because Jekyll builds the site programmatically -- if naming conventions are ignored, the build might fail.
-1.  Paste the text of the announcement at the very bottom of the new file you created.
-1. Update the fields in the YAML header at the top of the document. The template contains comments that explain the purpose of each field.
-
-
-
 
 ### New venues
 
