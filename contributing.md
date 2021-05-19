@@ -28,13 +28,6 @@ The general workflow goes like this:
 1. If you have admin privileges, merge the PR. If not, ask someone to merge the PR and grant you the admin privileges.  
 
 
-Here's how to create the event posting:
-
-
-
-
-
-
 ### New venues
 
 To add a new venue to the site, you must make these changes:
