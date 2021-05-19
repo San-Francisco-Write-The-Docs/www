@@ -8,27 +8,29 @@ Before you begin:
 
 * Have the text of the event post ready to go.
 * Clone the Write The Docs WWW repo to your local machine. The site has to be built locally before changes are merged.
-* Use the README.md file to install dependencies and make sure you can build the Jekyll site. **[The instructions are here]()**
+* Use the README.md file at the top level of this repo to install dependencies and make sure you can build the Jekyll site.
 * Be prepared to work in a text editor (like Atom or Sublime Text), use Git in the command line, and cut-and-paste some commands into the terminal to build Jekyll and start the server.
 
 The general workflow goes like this:
 
 1. Working in the WWW repo on your local machine, create a new branch in Git for your work. (Naming convention <last_name>-<month_of_event>)
 1. Create the new event posting using the steps in the following section.
-1. Build the Jekyll site and then start a server so you can view it locally. (Never merge changes without building locally. So many small things can make the build fail.) **[The instructions are here]()**
+1. Build the Jekyll site and then start a server so you can view it locally. (Never merge changes without building locally. So many small things can make the build fail.) Instructions are in the README.md file.
 1. Review the new or changed parts of the site to make sure they rendered as expected and nothing is broken.
 1. Fix the site if necessary. If you made changes repeat the previous step.
 1. When everything is working, commit your changes in Git and then push the new branch to the remote (e.g. `git push -u origin <local_branch_name>`)
-1. Go to the WTD-WWW repo on GitHub and create a pull request for your branch. **[The instructions are here]()**
+1. Go to the WTD-WWW repo on GitHub and create a pull request for your branch. **[The instructions are here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request)**
 1. If you have admin privileges, merge the PR. If not, ask someone to merge the PR and grant you the admin privileges.  
 
 
-Here's how to create the event posting: 
+Here's how to create the event posting:
 
 1. Start with a blank template. Use the file stored here: `content/events/_template.md`. Don't delete anything in the template when you copy it.
-1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important because Jekyll builds the site programmatically -- if naming conventions are ignores, the build might fail.
+1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important because Jekyll builds the site programmatically -- if naming conventions are ignored, the build might fail.
 1.  Paste the text of the announcement at the very bottom of the new file you created.
-1.
+1. Update the fields in the YAML header at the top of the document. The template contains comments that explain the purpose of each field.
+
+
 
 
 ### New venues
