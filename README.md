@@ -26,6 +26,8 @@ To install dependencies:
     ```bash
     bundle install
     ```
+You only need to do this once. After the dependencies are installed you can forget about them unless something breaks.
+
 ### Build the site
 
 If haven't served this site since installing it, the repo may not have a `_site` directory. This directory is where the server will look for the finished pages, and it's normal for the `_site` directory to be missing right after you clone the repo.
@@ -38,4 +40,4 @@ To build this site, use `bundle exec jekyll build`
 
 ### Serve the Site
 
-To serve the site, run `bundle exec jekyll serve` from your project directory, and then open "localhost:4000" in your preferred browser.
+To serve the site, run `bundle exec jekyll serve` from your project directory, and then open `localhost:4000` in your preferred browser.
