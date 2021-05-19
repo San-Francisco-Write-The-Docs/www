@@ -15,6 +15,7 @@ The general workflow goes like this:
 
 1. Working in the WWW repo on your local machine, create a new branch in Git for your work. (Naming convention <last_name>-<month_of_event>)
 1. Create the new event posting using the steps in the following section.
+1. Go to the root directory of the repo and open the _config.yml file. Around line 29 or so, find the `next_event` attribute. You need to change the value of `next_event` to make it the same as the `event_id` in your upcoming event (found on line 9 or so in the event template). Without this change, the event will not appear on the site. Config file example: `next_event: "may-2021-analytics"`.
 1. Build the Jekyll site and then start a server so you can view it locally. (Never merge changes without building locally. So many small things can make the build fail.) Instructions are in the README.md file.
 1. Review the new or changed parts of the site to make sure they rendered as expected and nothing is broken.
 1. Fix the site if necessary. If you made changes repeat the previous step.

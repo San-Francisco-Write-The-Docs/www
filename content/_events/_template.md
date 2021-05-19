@@ -33,7 +33,11 @@ form:
   embed: |
    embed code for the form
 #
-           # The form section allows you to embed a google form in the site. Check with Claire Lundeby for more info. :- )
+   # The form section allows you to embed a google form in the site. Check with Claire Lundeby for more info. :- )
+remote: false
+zoom: false
+           # These values are for publishing the Zoom link and meeting number on the site, something we don't currently do.
+
 agenda: |
     * If you have an agenda, put it here as bullet points. Otherwise - remove this variable entirely.
 #

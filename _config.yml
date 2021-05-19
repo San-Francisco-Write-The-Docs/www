@@ -26,7 +26,7 @@ collections:
     output: true
 
 # This informs which event is shown as our "next" event. Use the "id" value from the event in events/events-{year}.yml
-next_event: "march-2021-product-is-docs"
+next_event: "may-2021-analytics"
 
 # These variables can be used to render these FA (FontAwesome 5 Free) icons throughout the site, without getting the whole thing.
 # Note: To add a new icon, replace the double quotes in the class with single quotes (for YML).

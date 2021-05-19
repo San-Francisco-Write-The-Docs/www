@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: "The Product is Docs -- A Look Inside"
 published: true
 event-id: march-2021-product-is-docs
@@ -8,7 +8,7 @@ year: 2021
 event-date: Thursday, March 18, 2021
 locale: san-francisco
 description: |
-  Found out more about the making of the book "The Product is Docs" in this super-meetup sponsored by the Portland, L.A., Salt Lake City, and Bay Area meetups.
+  Find out more about the making of the book "The Product is Docs" in this super-meetup sponsored by the Portland, L.A., Salt Lake City, and Bay Area meetups.
 rsvp_open: true
 remote: true
 zoom:
