@@ -20,8 +20,8 @@ meetup-link: https://www.meetup.com/Write-the-Docs-Bay-Area/events/279299838/
 agenda: |
       * 7:00 to 7:10 - Social networking
       * 7:10 to 7:15 - Announcements
-      * 7:15 to 7:45 - Presentation and Q&A
-      * 7:45 to 8:00 - Breakout rooms by meetup - Meet with your local meetup organizers and members to say hi to other people in your area!
+      * 7:15 to 7:45 - Presentation
+      * 7:45 to 8:00 - Q&A
 ---
 
 ## Learn how Python can positively impact your writing career
