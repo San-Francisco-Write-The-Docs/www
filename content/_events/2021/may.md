@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: "Roundtable: Analytics for docs"
 published: true
 event-id: may-2021-analytics
