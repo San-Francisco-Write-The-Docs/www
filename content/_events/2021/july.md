@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: "Intro to Python for Tech Writers"
 published: true
 event-id: july-2021-python
