@@ -13,7 +13,8 @@ Before you begin:
 
 The general workflow goes like this:
 
-1. Working in the WWW repo on your local machine, create a new branch in Git for your work. (Naming convention <last_name>-<month_of_event>)
+1. Working in the WWW repo on your local machine, create a new branch in Git for your work. Naming convention: <last_name>-<month_of_event> 
+      (NOTE: Base your new branch on the latest version of `master`. That is, check out master, pull, and then create the new branch.)
 1. Create the new event posting using the following steps:
       1. Start with a blank template. Use the file stored here: `content/events/_template.md`. Don't delete anything in the template when you copy it.
       1. Save a copy of the template file in the `events/` directory, under the current year, and name it for the month in which the event occurs. For example, if you were posting the event for May 2021, you would save the file here: `content/events/2021/may.md`. NOTE: The names of files and directories are important if naming conventions are ignored, the build might fail.
