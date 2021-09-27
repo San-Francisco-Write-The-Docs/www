@@ -5,7 +5,7 @@ title: "Roundtable: New to the field!"
 published: true
 event-id: october-2021-new-to-the-field
 year: 2021
-event-date: Wednesday, October 13th, 2021
+event-date: Wednesday, October 20th, 2021
 locale: san-francisco
 description: |
   How do you get started in the tech writing profession?
