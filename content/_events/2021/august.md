@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: "Spar Your Content like a Boxer"
 published: true
 event-id: august-2021-content-sparring
