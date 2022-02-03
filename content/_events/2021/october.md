@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: "Roundtable: New to the field!"
 published: true
 event-id: october-2021-new-to-the-field
