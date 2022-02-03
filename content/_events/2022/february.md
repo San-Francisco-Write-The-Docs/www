@@ -4,7 +4,7 @@ upcoming: true
 title: Lightning Talks
 published: true
 event-id: feb-2022-lightning-talks
-year: 2021
+year: 2022
 event-date: Tuesday, February 22, 2022
 locale: san-francisco
 description: |
@@ -48,7 +48,7 @@ If you plan to do a lightning talk, please let us know by filling out this form:
                 </button>
             </div>
             <div class="modal-body">
-               <iframe src="https://forms.gle/ujD8L87NsuDPySzM8" width="640" height="1067" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJdGM7H71yrxA4ZKdQ4MPU1cD91FYBndvdSWIIZfUxuWe4yQ/viewform" width="640" height="1067" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
@@ -58,18 +58,19 @@ If you plan to do a lightning talk, please let us know by filling out this form:
 </div>
 
 
-## TIPS FOR PREPARING A LIGHTNING TALK ##
+## Tips for preparing a lightning talk ##
 
 Ideally, a lightning talk focuses on a concept in a quick and clear manner. Keep in mind that you can be as serious or as silly as you like.
 
-You can use slides, but you’ll probably want 15 or fewer unless you plan to click through them quickly (https://en.wikipedia.org/wiki/PechaKucha).
+You can use slides, but you’ll probably want 15 or fewer unless you plan to [click through them quickly](https://en.wikipedia.org/wiki/PechaKucha).
 
 If you’re not used to public speaking, keep two things in mind:
 The audience is on your side and wants you to succeed
 Five minutes goes by FAST.
 
-For tips about creating lightning talks, see Barrie Byron’s “So you want to give a lightning talk” blog post:
-https://barriebyron.wordpress.com/2013/02/17/so-you-want-to-give-a-lightning-talk/
+For tips about creating lightning talks, see Barrie Byron’s [So you want to give a lightning](https://barriebyron.wordpress.com/2013/02/17/so-you-want-to-give-a-lightning-talk/]) blog post.
 
-EXAMPLES
-For an example lightning talk, see Write The Docs Portland 2016 - Day 1 Lightning Talks: https://www.youtube.com/watch?v=LW0NJAbRjc8&index=24&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv
+
+## Examples ##
+
+For an example lightning talk, see [Write The Docs Portland 2016 - Day 1 Lightning Talks](https://www.youtube.com/watch?v=LW0NJAbRjc8&index=24&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv).
