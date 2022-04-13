@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: Lightning Talks
 published: true
 event-id: feb-2022-lightning-talks
