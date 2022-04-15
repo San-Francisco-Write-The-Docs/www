@@ -1,11 +1,11 @@
 ---
 layout: events/event
 upcoming: true
-title: "Coding as a Technical Writer"
+title: "Writing Code Examples for Technical Documentation"
 published: true
 event-id: may-2022-sample-code
 year: 2022
-event-date: Wednesday, May 4, 2022
+event-date: Wednesday, May 3, 2022
 locale: san-francisco
 description: |
   Discover strategies and best practices for writing sample code in developer documentation.
@@ -26,10 +26,10 @@ agenda: |
 
 ## Learn strategies for writing useful and meaningful sample code
 
-As technical writers, we often need to create sample code to illustrate the primary use case of an API or developer tool, and to help developers get started quickly with these tools. But where to start? What does good sample code look like?
+AWS offers 250+ data processing, storage and computational services. A large proportion of its customers interact with these services using code rather than through the AWS Console, and they want (need!) example code to enable them do so successfully.
 
-Please join us as Brian Murray presents strategies and best practices for writing sample code in developer documentation, and how it can help make your docs stand out. His talk will also provide resources for future learning.
+Please join us as Brian Murray talks through the challenges inherent in creating and publishing easily discoverable high-quality code examples to a large customer base with diverse requirements and skill-levels.
 
 OUR SPEAKER:
 
-Brian Murray is a is a Senior Documentation Manager at Amazon Web Services (AWS). 
+ Brian Murray is a Documentation Manager at AWS, responsible for the AWS SDK Code Examples team. His role is to guide the team’s effort to deliver a best-of-class AWS SDK Code Examples library across all AWS Services in all AWS supported SDK languages. Before joining AWS, he was a Technical Writer with numerous companies, including SAP and Misys. He’s also a drama facilitator, especially interested in Theatre of the Oppressed.
