@@ -5,7 +5,7 @@ title: "Writing Code Examples for Technical Documentation"
 published: true
 event-id: may-2022-sample-code
 year: 2022
-event-date: Wednesday, May 3, 2022
+event-date: Tuesday, May 3, 2022
 locale: san-francisco
 description: |
   Discover strategies and best practices for writing sample code in developer documentation.
