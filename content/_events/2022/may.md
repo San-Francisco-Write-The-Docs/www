@@ -1,6 +1,6 @@
 ---
 layout: events/event
-upcoming: true
+upcoming: false
 title: "Writing Code Examples for Technical Documentation"
 published: true
 event-id: may-2022-sample-code
