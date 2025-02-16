@@ -51,3 +51,10 @@ san-lorenzo-library:
 youtube-san-bruno:
   name: YouTube, San Bruno
   map: "locations/youtube-san-bruno.html"
+
+
+
+
+mintlify-san-francisco:
+  name: Mintlify
+  map: "locations/san-francisco.html"
